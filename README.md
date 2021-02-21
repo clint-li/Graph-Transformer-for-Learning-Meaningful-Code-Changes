@@ -73,7 +73,7 @@ While training and testing the models, a list of files sre generated inside the 
 - **MODEL_NAME_test.json** 
   - The predictions and gold references are dumped during evaluation (greedy).
 - **MODEL_NAME_test_predictions.txt**
-  - The pure predictions during evalution (greedy).
+  - The pure predictions are generated during evalution (greedy).
 - **MODEL_NAME_buggy.txt**
   - The buggy code files for calculate perfect predictions.
 - **MODEL_NAME_fixed.txt**
@@ -83,7 +83,7 @@ While training and testing the models, a list of files sre generated inside the 
 - **MODEL_NAME_beam.json**
   - The predictions and gold references are dumped during evaluation (beam).
 - **MODEL_NAME_beam_predictions.txt**
-  - The pure predictions during evaluation (beam).
+  - The pure predictions are generated during evaluation (beam).
 
 ## Citation
 
