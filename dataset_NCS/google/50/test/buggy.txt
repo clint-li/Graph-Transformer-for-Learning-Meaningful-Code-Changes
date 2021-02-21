@@ -1,0 +1,211 @@
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME req TYPE java.lang.String NAME VAR_1 TYPE java.lang.String NAME path COND TYPE_3 . METHOD_2 ( path )  return null ;  return TYPE_4 . METHOD_3 ( ) . METHOD_4 ( VAR_1 ) . METHOD_5 ( path ) ;
+MODIFIER public RETURN TYPE_1 NAME create  return new TYPE_1 ( this , null ) ;
+MODIFIER public RETURN java.util.Map<java.lang.String,java.lang.String> NAME METHOD_1  return this . VAR_1 ;
+MODIFIER private RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME cfg  return VAR_1 . METHOD_2 ( ) ;
+MODIFIER protected RETURN java.lang.String NAME METHOD_1  return VAR_1 . get ( ) ;
+MODIFIER public RETURN TYPE_1 NAME get TYPE TYPE_2.Change NAME change TYPE TYPE_2.PatchSet NAME patchSet  return get ( change , patchSet , VAR_1 ) ;
+MODIFIER public RETURN TYPE_1.Result NAME METHOD_1 TYPE TYPE_2 NAME git TYPE java.lang.String NAME ref  TYPE_4 . METHOD_1 ( git , VAR_1 )  return METHOD_2 ( git , ref ) ;
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 = new TYPE_1 ( null , new TYPE_2 ( VAR_2 ) , null , null )
+MODIFIER protected RETURN void NAME METHOD_1 TYPE TYPE_1 NAME ctx  VAR_1 . METHOD_2 ( METHOD_3 ( VAR_2 ) , VAR_2 )
+MODIFIER MODIFIER RETURN TYPE_1 NAME create TYPE TYPE_2<com.google.gerrit.server.query.change.ChangeData> NAME schema TYPE java.lang.String NAME base
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 . projects ( ) . name ( STRING_1 ) . create ( )
+MODIFIER public RETURN TYPE_1 NAME delete TYPE java.lang.String NAME VAR_1  return METHOD_1 ( TYPE_2 . METHOD_2 ( ( ( ( url ) + STRING_1 ) + VAR_1 ) ) ) ;  METHOD_3 ( INT_1 [ VAR_2 ] )
+MODIFIER public final native RETURN void NAME METHOD_1 TYPE java.lang.String NAME value
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1  return VAR_1 . name ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.Account.Id NAME id  key = new TYPE_1 . Key ( ( STRING_1 + id ) )  VAR_1 = new TYPE_2 ( id , 0 , false , null , STRING_2 )
+MODIFIER MODIFIER RETURN void NAME METHOD_1 TYPE TYPE_1 NAME e COND ( VAR_1 ) == null  VAR_1 = new TYPE_2 ( VAR_2 , changeId )  VAR_1 . METHOD_2 ( )
+MODIFIER public RETURN void NAME onSuccess TYPE TYPE_1 NAME result  VAR_1 = result . config COND ( result . account ) != null  VAR_2 = result . account  TYPE_2 . METHOD_1 ( )  METHOD_2 ( VAR_3 )
+MODIFIER public static RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( VAR_1 , VAR_2 class )  TYPE_2 . METHOD_3 ( new TYPE_3 ( ) )
+MODIFIER public RETURN void NAME close  rw . close ( )  repo . close ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME r INIT = VAR_1 . delete ( METHOD_2 ( ) )  org.junit.Assert.assertEquals ( VAR_2 , r . METHOD_3 ( ) )
+MODIFIER public static RETURN java.lang.String NAME METHOD_1 TYPE java.lang.String NAME VAR_1 TYPE com.google.gerrit.reviewdb.client.Change.Status NAME status  return TYPE_1 . METHOD_2 ( ( ( ( TYPE_1 . METHOD_3 ( STRING_1 , VAR_1 ) ) + STRING_2 ) + ( TYPE_1 . status ( status ) ) ) , VAR_2 ) ;
+MODIFIER public RETURN TYPE_1 NAME apply TYPE TYPE_2 NAME rsrc TYPE TYPE_3 NAME input TYPE com.google.gerrit.reviewdb.client.Project.NameKey NAME project INIT = rsrc . METHOD_1 ( ) COND VAR_1  return METHOD_2 ( project , input ) ;  return METHOD_3 ( project , input ) ;
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME err TYPE java.lang.Exception NAME e COND VAR_1  VAR_2 . error ( err , e )  return TYPE_2 . METHOD_2 ( ) ;  return TYPE_2 . METHOD_3 ( err ) ;
+MODIFIER public RETURN void NAME index TYPE com.google.gerrit.server.query.change.ChangeData NAME cd TYPE TYPE_1<?,com.google.gerrit.server.query.change.ChangeData> NAME i IN METHOD_1 ( )  i . METHOD_2 ( cd )  METHOD_3 ( cd )
+MODIFIER MODIFIER RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  VAR_2 . METHOD_1 ( VAR_1 )
+MODIFIER private RETURN java.util.List<TYPE_1> NAME METHOD_1 TYPE java.lang.String NAME err COND VAR_1  VAR_2 . error ( err )  return TYPE_2 . METHOD_2 ( ) ;  return TYPE_2 . METHOD_3 ( err ) ;
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 . close ( )
+MODIFIER public RETURN void NAME onSuccess TYPE TYPE_1 NAME result  VAR_1 = true COND VAR_2 != null  VAR_2 . onSuccess ( result )  METHOD_1 ( )
+MODIFIER public RETURN com.google.gerrit.reviewdb.client.Change NAME update TYPE com.google.gerrit.reviewdb.client.Change NAME change COND change . getStatus ( ) . METHOD_1 ( )  change . METHOD_2 ( result . info )  change . METHOD_3 ( VAR_1 )  TYPE_1 . METHOD_4 ( change )  return change ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE java.lang.String NAME VAR_1 TYPE TYPE_1 NAME VAR_2 INIT = METHOD_2 ( METHOD_3 ( VAR_1 ) )  VAR_2 . METHOD_4 ( )
+MODIFIER public static RETURN void NAME METHOD_1 TYPE int NAME id TYPE java.lang.String NAME m TYPE TYPE_1<TYPE_2> NAME VAR_1  TYPE_3 . METHOD_2 ( id ) . put ( m , VAR_1 )
+MODIFIER public RETURN void NAME METHOD_1  install ( VAR_1 . METHOD_2 ( VAR_2 class ) )  bind ( VAR_3 class ) . METHOD_3 ( VAR_4 )  install ( new TYPE_1 ( ) )  factory ( VAR_5 . Factory class )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1  return TYPE_2 . METHOD_2 ( ) . METHOD_3 ( METHOD_3 ( ) ) . METHOD_4 ( METHOD_4 ( ) ) . METHOD_5 ( METHOD_5 ( ) ) ;
+MODIFIER public RETURN java.lang.String NAME METHOD_1 TYPE int NAME i  return METHOD_2 ( i , ( i + 1 ) ) ;
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( ) TYPE java.lang.String NAME VAR_1 INIT = STRING_1  VAR_2 . METHOD_3 ( )  VAR_2 . METHOD_4 ( )  VAR_3 . METHOD_5 ( VAR_1 )  VAR_2 . METHOD_6 ( )
+MODIFIER public final native RETURN void NAME METHOD_1 TYPE java.lang.String NAME b
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME path  this . path = TYPE_2 . METHOD_2 ( path )  return this ;
+MODIFIER MODIFIER RETURN TYPE_1<TYPE_2> NAME METHOD_1 TYPE TYPE_3 NAME VAR_1
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2.PatchSetApproval NAME VAR_1 COND VAR_1 != null  return VAR_2 . create ( VAR_1 . getAccountId ( ) ) . METHOD_2 ( VAR_1 . METHOD_3 ( ) , VAR_3 . METHOD_4 ( ) ) ;  return VAR_3 ;
+MODIFIER private static RETURN void NAME METHOD_1 TYPE TYPE_1 NAME r TYPE TYPE_2.NameKey NAME branch  TYPE_3 . METHOD_2 ( r , STRING_1 , branch . get ( ) )
+MODIFIER private RETURN boolean NAME METHOD_1 TYPE java.util.Set<java.lang.String> NAME VAR_1  return ( user . METHOD_2 ( ) ) || ( METHOD_3 ( VAR_2 , VAR_1 ) ) ;
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.Change NAME c TYPE TYPE_2 NAME user TYPE TYPE_1 NAME update INIT = TYPE_3 . METHOD_1 ( VAR_1 , VAR_2 , VAR_3 , c , VAR_4 , user )  return update ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1.Change NAME change  this . change = change  this . currentPatchSetId = change . currentPatchSetId ( )
+MODIFIER public static RETURN void NAME get TYPE com.google.gerrit.reviewdb.client.Project.NameKey NAME name TYPE TYPE_1<TYPE_2> NAME VAR_1  VAR_2 . METHOD_1 ( name , VAR_1 )
+MODIFIER final native RETURN void NAME METHOD_1 TYPE java.lang.String NAME t
+MODIFIER private static RETURN void NAME METHOD_1 TYPE java.lang.String NAME args  org.junit.Assert.assertEquals ( 0 , TYPE_1 . METHOD_2 ( args ) )
+MODIFIER public RETURN void NAME onSuccess TYPE TYPE_1 NAME value COND VAR_1  return ;  this . result = value  VAR_2 . METHOD_1 ( this )  this . METHOD_2 ( )
+MODIFIER public RETURN void NAME onSuccess TYPE TYPE_1.ChangeInfo NAME info  info . METHOD_1 ( )  METHOD_2 ( info , null )
+MODIFIER public RETURN void NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.Change.Id NAME changeId  this . changeId = changeId
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME r INIT = VAR_1 . get ( STRING_1 )  org.junit.Assert.assertEquals ( VAR_2 , r . METHOD_2 ( ) )
+MODIFIER MODIFIER RETURN java.util.Map<java.lang.String,TYPE_1> NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.Change NAME change TYPE com.google.gerrit.reviewdb.client.PatchSet NAME patchSet  return METHOD_1 ( change , patchSet , null ) ;
+MODIFIER protected RETURN void NAME METHOD_1 TYPE TYPE_1 NAME event  TYPE_2 . METHOD_2 ( METHOD_3 ( ) , false )  TYPE_3 . display ( METHOD_4 ( ) )  TYPE_4 . METHOD_5 ( event )
+MODIFIER MODIFIER RETURN TYPE_1 NAME create TYPE TYPE_2 NAME VAR_1
+MODIFIER protected RETURN void NAME run  VAR_1 . METHOD_1 ( )
+MODIFIER MODIFIER RETURN void NAME METHOD_1 TYPE TYPE_1.Id NAME project TYPE TYPE_2<java.util.List<TYPE_3.Branch>> NAME VAR_1
+MODIFIER public static RETURN java.lang.String NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.Change.Id NAME changeId TYPE com.google.gerrit.reviewdb.client.Account.Id NAME VAR_1 TYPE java.lang.StringBuilder NAME r INIT = TYPE_1 . METHOD_2 ( VAR_2 , changeId . get ( ) )  r . append ( VAR_1 . get ( ) )  return r . toString ( ) ;
+MODIFIER private RETURN TYPE_1.ProjectConfig NAME METHOD_1  return METHOD_1 ( STRING_1 , true ) ;
+MODIFIER private RETURN java.util.List<TYPE_1> NAME events TYPE TYPE_1 NAME VAR_1  return TYPE_2 . METHOD_1 ( VAR_1 ) ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME branch  this . branch = TYPE_1 . METHOD_2 ( TYPE_1 . METHOD_3 ( branch ) )  return this ;
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( )  super . METHOD_1 ( )
+MODIFIER public static final RETURN void NAME METHOD_1 TYPE java.lang.String NAME VAR_1  TYPE_1 . METHOD_1 ( STRING_1 , VAR_1 , null )
+MODIFIER public static RETURN TYPE_1 NAME assertThat TYPE TYPE_2 NAME path  return com.google.common.truth.Truth . METHOD_1 ( VAR_1 ) . METHOD_2 ( path ) ;
+MODIFIER public RETURN com.google.gerrit.reviewdb.client.Account NAME METHOD_1  return VAR_1 ;
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2<TYPE_3> NAME repo TYPE java.lang.String NAME branch  return METHOD_2 ( repo , null , null , branch , null , null ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME r INIT = VAR_1 . METHOD_2 ( STRING_1 )  org.junit.Assert.assertEquals ( VAR_2 , r . METHOD_3 ( ) )
+MODIFIER private RETURN TYPE_1<?> NAME METHOD_1  return TYPE_1 . METHOD_2 ( VAR_1 , false , VAR_2 ) ; TYPE TYPE_3 NAME err  throw new TYPE_2 . OrmException ( STRING_1 , err ) ;
+MODIFIER public RETURN TYPE_1 NAME apply TYPE TYPE_2 NAME VAR_1  return new TYPE_1 ( VAR_2 , VAR_3 , VAR_4 ) ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME key TYPE org.eclipse.jgit.lib.Repository NAME repo INIT = VAR_1 . METHOD_2 ( VAR_2 )  return METHOD_3 ( key , repo ) ;  repo . close ( )
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME account TYPE com.google.gerrit.reviewdb.client.Change.Id NAME changeId TYPE org.eclipse.jgit.lib.Repository NAME repo INIT = VAR_1 . METHOD_2 ( VAR_2 )  return repo . METHOD_3 ( TYPE_3 . METHOD_4 ( account . id , changeId ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME s  VAR_1 = s . METHOD_2 ( )
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME VAR_1 TYPE TYPE_2 NAME args  return new TYPE_1 ( ( ( ( STRING_1 + ( changeId ) ) + STRING_2 ) + ( java.lang.String.format ( VAR_1 , args ) ) ) ) ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 INIT = VAR_2 . get ( key . METHOD_2 ( ) , project )  return TYPE_3 . METHOD_3 ( VAR_1 ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE TYPE_2.PatchSetApproval NAME VAR_2  METHOD_2 ( VAR_1 , VAR_2 )  METHOD_3 ( VAR_2 )
+MODIFIER protected RETURN void NAME METHOD_1  super . METHOD_1 ( )  VAR_1 = new TYPE_1 ( true )  add ( VAR_1 )
+MODIFIER public RETURN TYPE_1 NAME apply TYPE TYPE_2 NAME rsrc TYPE org.eclipse.jgit.revwalk.RevCommit NAME c INIT = rsrc . METHOD_1 ( ) TYPE TYPE_1 NAME info INIT = TYPE_3 . METHOD_2 ( c )  return info ;
+MODIFIER public RETURN void NAME METHOD_1  org.junit.Assert.assertEquals ( VAR_1 , VAR_2 . METHOD_2 ( ( ( STRING_1 + ( VAR_3 . get ( ) ) ) + STRING_2 ) ) . METHOD_3 ( ) )
+MODIFIER protected static RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( STRING_1 )  VAR_1 . METHOD_2 ( STRING_2 )  VAR_1 . METHOD_2 ( STRING_3 )  VAR_1 . METHOD_2 ( STRING_4 )  VAR_1 . METHOD_2 ( STRING_5 )
+MODIFIER public static RETURN void NAME METHOD_1 TYPE TYPE_1<com.google.gerrit.reviewdb.server.ReviewDb> NAME db TYPE TYPE_2<com.google.gerrit.server.query.change.ChangeData> NAME changes TYPE com.google.gerrit.server.query.change.ChangeData NAME cd IN changes  cd . METHOD_2 ( )
+MODIFIER MODIFIER RETURN TYPE_1 NAME id TYPE java.lang.String NAME VAR_1
+MODIFIER private static RETURN java.lang.String NAME METHOD_1 TYPE java.lang.String NAME name TYPE TYPE_1 NAME m INIT = TYPE_1 . METHOD_2 ( STRING_1 )  TYPE_2 . METHOD_3 ( m . METHOD_4 ( name ) , STRING_2 , name )  return name ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME VAR_1  return new TYPE_1 ( VAR_1 , cfg ) ;
+MODIFIER MODIFIER RETURN void NAME METHOD_1 TYPE boolean NAME r  VAR_1 . METHOD_2 ( r , true )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1  this . VAR_1 = true  return this ;
+MODIFIER public RETURN void NAME onSuccess TYPE TYPE_1 NAME result  TYPE_2 . display ( TYPE_3 . METHOD_1 ( VAR_1 . getParentKey ( ) ) )
+MODIFIER private RETURN java.lang.String NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 INIT = VAR_2 . create ( db , user . METHOD_2 ( ) )  return VAR_1 . to ( git , STRING_1 ) . getChangeId ( ) ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME cfg TYPE TYPE_3 NAME VAR_1 TYPE TYPE_4 NAME VAR_2 TYPE TYPE_5 NAME VAR_3  return new TYPE_1 ( cfg , VAR_3 , VAR_1 , VAR_2 , TYPE_6 . METHOD_2 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME VAR_1 COND ( VAR_1 != null ) && ( ! ( VAR_1 . isEmpty ( ) ) )  file = VAR_1
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = new TYPE_1 ( VAR_2 , 0 )  METHOD_2 ( TYPE_2 . create ( 1 , 0 ) , VAR_1 . METHOD_3 ( INT_1 ) )
+MODIFIER protected RETURN void NAME METHOD_1 COND VAR_1  super . METHOD_2 ( STRING_1 )  VAR_1 = false COND ( METHOD_3 ( ) ) != null  METHOD_4 ( METHOD_3 ( ) )
+MODIFIER public RETURN TYPE_1<com.google.gerrit.reviewdb.client.Project.NameKey> NAME METHOD_1  VAR_1 . METHOD_2 ( ) TYPE TYPE_2 NAME VAR_2 INIT = new TYPE_2 ( VAR_3 )  METHOD_3 ( VAR_2 )  return java.util.Collections . METHOD_4 ( VAR_4 ) ;  VAR_1 . METHOD_5 ( )
+MODIFIER static RETURN TYPE_1 NAME error TYPE TYPE_2 NAME s TYPE TYPE_1 NAME r INIT = new TYPE_1 ( org.eclipse.jgit.lib.ObjectId . METHOD_1 ( ) )  VAR_1 = s  return r ;
+MODIFIER private static RETURN void NAME METHOD_1 TYPE TYPE_1 NAME config TYPE TYPE_2 NAME VAR_1  TYPE_4 . sshd ( config , VAR_1 )  TYPE_4 . METHOD_2 ( config , VAR_1 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  METHOD_2 ( true )  new TYPE_2 ( VAR_1 . getMessage ( ) ) . METHOD_3 ( )
+MODIFIER public RETURN TYPE_1<TYPE_2> NAME METHOD_1  return VAR_1 . values ( ) ;
+MODIFIER public static RETURN TYPE_1 NAME METHOD_1 TYPE int NAME id TYPE java.lang.String NAME VAR_1  return TYPE_2 . change ( id ) . view ( STRING_1 ) . id ( VAR_1 ) ;
+MODIFIER private RETURN PatchSet.Id NAME METHOD_1 TYPE TYPE_1 NAME c  return TYPE_2 . METHOD_2 ( db . changes ( ) . METHOD_3 ( new com.google.gerrit.reviewdb.client.Change . Key ( c . getChangeId ( ) ) ) ) . currentPatchSetId ( ) ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1 NAME event  VAR_1 . METHOD_2 ( VAR_2 . METHOD_3 ( event ) )
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE TYPE_1.ReviewDb NAME db  return ( ( ( change . getStatus ( ) ) == ( VAR_1 ) ) && ( METHOD_2 ( ) ) ) && ( METHOD_3 ( db ) ) ;
+MODIFIER public RETURN java.lang.String NAME apply TYPE TYPE_1 NAME in  return in . getChange ( ) . getKey ( ) . METHOD_1 ( ) ;
+MODIFIER private static RETURN void NAME METHOD_1 TYPE java.lang.String NAME ref TYPE TYPE_1 NAME u  METHOD_2 ( ( STRING_1 + ref ) , u . METHOD_3 ( ref ) . METHOD_4 ( ) )
+MODIFIER private RETURN void NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.PatchSet.Id NAME VAR_1  VAR_2 . METHOD_1 ( VAR_1 ) TYPE TYPE_2 NAME e  throw new TYPE_1 ( e . getMessage ( ) ) ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1 NAME req TYPE TYPE_2 NAME res INIT = new TYPE_2 ( )  servlet . METHOD_2 ( req , res )  assertEquals ( VAR_1 , res . getStatus ( ) )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME VAR_1  this . VAR_2 = VAR_1  return this ;
+MODIFIER private static RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME result TYPE TYPE_2<TYPE_3.ReceiveCommand> NAME commands COND TYPE_4 . METHOD_2 ( commands )  return result . METHOD_3 ( ) ;  return result . METHOD_4 ( ) ;
+MODIFIER private RETURN void NAME METHOD_1  METHOD_2 ( VAR_1 , project , STRING_1 , true , VAR_2 )
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 . METHOD_1 ( )  VAR_2 . METHOD_1 ( ( ( long ) ( 0 ) ) )  VAR_3 . METHOD_1 ( ( ( long ) ( 1 ) ) )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( )  METHOD_3 ( ) TYPE TYPE_1 NAME VAR_1 INIT = METHOD_4 ( ) TYPE java.lang.String NAME VAR_2 INIT = VAR_1 . METHOD_5 ( STRING_1 , null )  assertEquals ( STRING_2 , VAR_2 )
+MODIFIER public RETURN void NAME METHOD_1  org.junit.Assert.assertEquals ( STRING_1 , VAR_1 . METHOD_2 ( STRING_2 , null , STRING_3 ) )
+MODIFIER private static RETURN java.lang.String NAME status TYPE com.google.gerrit.reviewdb.client.Change.Status NAME status NAME status  return STRING_1 ;  return STRING_2 ;  return STRING_3 ;
+MODIFIER final native RETURN void NAME METHOD_1 TYPE java.lang.String NAME m
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( ) TYPE TYPE_1 NAME res INIT = METHOD_3 ( STRING_1 )  org.junit.Assert.assertEquals ( STRING_2 , res . METHOD_4 ( ) )
+MODIFIER public RETURN java.util.List<TYPE_1> NAME apply TYPE TYPE_2 NAME rsrc  return VAR_1 . METHOD_1 ( this , rsrc . METHOD_2 ( ) , METHOD_3 ( rsrc ) ) ;
+MODIFIER private RETURN boolean NAME METHOD_1 TYPE java.lang.String NAME VAR_1 TYPE java.lang.String NAME VAR_2  return TYPE_1 . METHOD_2 ( VAR_2 ) . METHOD_1 ( VAR_1 , this . METHOD_3 ( ) . METHOD_4 ( ) . METHOD_5 ( ) ) ;
+MODIFIER private RETURN boolean NAME METHOD_1  return ( ( VAR_1 . METHOD_2 ( ) . contains ( VAR_2 ) ) || ( VAR_1 . METHOD_2 ( ) . contains ( VAR_3 ) ) ) || ( VAR_1 . METHOD_2 ( ) . contains ( VAR_4 ) ) ;
+MODIFIER private RETURN java.util.List<TYPE_1> NAME METHOD_1 TYPE TYPE_2.Id NAME VAR_1 COND VAR_1 . METHOD_2 ( )  return METHOD_3 ( VAR_2 . METHOD_4 ( ) . METHOD_1 ( ) , VAR_1 ) ;  return java.util.Collections . METHOD_5 ( ) ;
+MODIFIER MODIFIER RETURN TYPE_1 NAME create TYPE com.google.gerrit.reviewdb.client.Change NAME change TYPE java.lang.String NAME path
+MODIFIER protected abstract RETURN void NAME run TYPE java.lang.String[] NAME args
+MODIFIER public RETURN java.util.List<java.lang.String> NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.PatchSet NAME ps INIT = METHOD_2 ( ) COND ps == null  return null ;  return METHOD_3 ( VAR_1 ) ;
+MODIFIER private static RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME cfg  return TYPE_3 . METHOD_2 ( cfg , STRING_1 , null , STRING_2 , VAR_1 ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME event NAME event . METHOD_2 ( )  METHOD_3 ( )  break ;  VAR_3 . METHOD_4 ( STRING_1 )  VAR_3 . METHOD_5 ( false )  break ;
+MODIFIER MODIFIER RETURN TYPE_1 NAME create TYPE TYPE_2 NAME notes TYPE com.google.gerrit.reviewdb.client.Account.Id NAME VAR_1 TYPE TYPE_3 NAME VAR_2 TYPE TYPE_4 NAME VAR_3 TYPE TYPE_5<java.lang.String> NAME VAR_4
+MODIFIER public static RETURN void NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.PatchSet.Id NAME id TYPE java.lang.String NAME VAR_1 TYPE TYPE_1 NAME VAR_2 TYPE TYPE_2<TYPE_3> NAME VAR_3  TYPE_4 . revision ( id , STRING_1 ) . id ( VAR_1 ) . put ( VAR_2 , VAR_3 )
+MODIFIER public synchronized RETURN TYPE_1<TYPE_2> NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.Account.Id NAME VAR_1  return TYPE_1 . METHOD_2 ( VAR_2 . get ( VAR_1 ) ) ;
+MODIFIER abstract RETURN TYPE_1 NAME id TYPE java.lang.String NAME VAR_1
+MODIFIER MODIFIER RETURN boolean NAME METHOD_1 TYPE java.lang.String NAME VAR_1 TYPE boolean NAME VAR_2  return METHOD_2 ( VAR_1 , VAR_2 , false ) ;
+MODIFIER protected RETURN java.lang.String NAME getRefName  return STRING_1 ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME t  METHOD_2 ( VAR_1 ) TYPE TYPE_2 NAME error TYPE TYPE_3.not NAME VAR_2 TYPE TYPE_3.line NAME VAR_3  VAR_4 . METHOD_1 ( t )  return this ;
+MODIFIER protected RETURN void NAME METHOD_1 TYPE boolean NAME on TYPE TYPE_1 NAME w IN METHOD_2 ( ) COND w instanceof TYPE_2  ( ( TYPE_2 ) ( w ) ) . METHOD_3 ( on )
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1.HttpServletResponse NAME res TYPE TYPE_2 NAME type  res . METHOD_2 ( VAR_1 , java.lang.String.format ( STRING_1 , VAR_2 . METHOD_3 ( ) ) )
+MODIFIER protected RETURN void NAME METHOD_1  super . METHOD_1 ( )  METHOD_2 ( )  METHOD_3 ( )  METHOD_4 ( )  METHOD_5 ( )  METHOD_6 ( )
+MODIFIER protected RETURN void NAME set TYPE int NAME VAR_1  METHOD_1 ( VAR_1 )  VAR_2 = VAR_1
+MODIFIER public RETURN TYPE_1 NAME METHOD_1  return user ;
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE com.google.gerrit.server.query.change.ChangeData NAME VAR_1  return TYPE_1 . METHOD_2 ( VAR_1 ) . contains ( getValue ( ) . METHOD_3 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME changeId INIT = METHOD_2 ( ) . getChangeId ( ) TYPE java.util.List<TYPE_1> NAME reviewers INIT = METHOD_3 ( changeId , STRING_1 , INT_1 )  com.google.common.truth.Truth.assertThat ( reviewers ) . METHOD_4 ( 2 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME in INIT = new TYPE_1 ( )  VAR_1 = STRING_1 TYPE TYPE_2 NAME r INIT = VAR_2 . put ( STRING_2 , in )  org.junit.Assert.assertEquals ( VAR_3 , r . METHOD_2 ( ) )
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE org.eclipse.jgit.lib.ObjectId NAME commit TYPE TYPE_1 NAME VAR_1 TYPE TYPE_2 NAME VAR_2 TYPE java.lang.String NAME VAR_3  return VAR_4 . METHOD_1 ( new TYPE_3 ( commit , TYPE_4 . METHOD_2 ( VAR_1 ) , VAR_2 , VAR_3 , null , null , null ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1.Id NAME VAR_1 TYPE TYPE_2<TYPE_3> NAME VAR_2  VAR_3 . create ( VAR_1 ) . to ( VAR_2 )
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 TYPE TYPE_1 NAME VAR_2 INIT = null COND VAR_1 != null  VAR_2 = new TYPE_1 ( )  VAR_3 = VAR_4  VAR_5 = VAR_6  VAR_7 = VAR_8  VAR_9 = VAR_10  return VAR_2 ;
+MODIFIER private static RETURN java.lang.String NAME METHOD_1 TYPE java.lang.String NAME VAR_1 TYPE int NAME changeId TYPE TYPE_1 NAME VAR_2 TYPE int NAME VAR_3 TYPE java.lang.String NAME VAR_4  return ( TYPE_2 . METHOD_1 ( VAR_1 , changeId , VAR_2 , VAR_3 , VAR_4 ) ) + STRING_1 ;
+MODIFIER private RETURN com.google.gerrit.reviewdb.client.Change NAME METHOD_1  return TYPE_1 . METHOD_1 ( project , VAR_1 ) ;
+MODIFIER public RETURN void NAME delete TYPE int NAME id TYPE java.lang.String NAME VAR_1 INIT = TYPE_1 . toString ( id )  delete ( VAR_1 , VAR_2 )  delete ( VAR_1 , VAR_3 )
+MODIFIER public static RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 INIT = TYPE_3 . METHOD_2 ( ) . METHOD_1 ( )  return VAR_1 != null ? new TYPE_1 ( VAR_1 ) : null ;
+MODIFIER public RETURN TYPE_1<TYPE_2> NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.Account.Id NAME VAR_1  return VAR_2 . get ( VAR_1 ) ; TYPE TYPE_3 NAME e  VAR_3 . METHOD_2 ( ( STRING_1 + VAR_1 ) , e )  return null ;
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( 0 , 0 )  message . METHOD_3 ( true )
+MODIFIER public static RETURN void NAME METHOD_1 TYPE int NAME id TYPE TYPE_1<TYPE_2> NAME VAR_1 TYPE TYPE_2 NAME in INIT = TYPE_2 . METHOD_2 ( )  TYPE_3 . change ( id ) . view ( STRING_1 ) . METHOD_3 ( in , VAR_1 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  VAR_1 . METHOD_2 ( STRING_1 )  VAR_1 . METHOD_3 ( new TYPE_2 ( TYPE_3 . METHOD_4 ( VAR_1 . METHOD_5 ( ) ) ) )
+MODIFIER public RETURN TYPE_1 NAME projects  return projects . get ( ) ;
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME name  return VAR_1 . METHOD_2 ( name ) ;
+MODIFIER public RETURN void NAME METHOD_1  new TYPE_1 ( STRING_1 , STRING_2 ) . METHOD_2 ( STRING_3 )  METHOD_3 ( STRING_4 ) TYPE TYPE_2 NAME VAR_1 BLOCK BLOCK
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME in INIT = new TYPE_1 ( )  in . name = STRING_1  VAR_1 = STRING_2  METHOD_2 ( in , VAR_2 class )
+MODIFIER public RETURN int NAME METHOD_1  return ( ( VAR_1 . METHOD_1 ( ) ) * INT_1 ) + ( VAR_2 . METHOD_1 ( ) ) ;
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 TYPE TYPE_1 NAME VAR_2 INIT = new TYPE_1 ( )  VAR_3 = METHOD_2 ( VAR_4 )  VAR_5 = VAR_6  return VAR_2 ;
+MODIFIER public RETURN void NAME METHOD_1  factory ( VAR_1 . Factory class )  factory ( VAR_2 . Factory class )  bind ( VAR_3 class ) . METHOD_2 ( user )  bind ( VAR_4 class ) . METHOD_3 ( VAR_5 )
+MODIFIER private static RETURN TYPE_1<com.google.gerrit.server.query.change.ChangeData> NAME project TYPE com.google.gerrit.reviewdb.client.Project.NameKey NAME projectName  return new TYPE_2 ( projectName . get ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME sql  VAR_1 . METHOD_1 ( sql ) TYPE TYPE_2 NAME e  throw new TYPE_1 . OrmException ( ( STRING_1 + sql ) , e ) ;
+MODIFIER MODIFIER RETURN void NAME METHOD_1 TYPE TYPE_1<TYPE_2> NAME e  VAR_1 . METHOD_2 ( e . getValue ( ) )  view . METHOD_3 ( ) . METHOD_4 ( STRING_1 , VAR_1 . METHOD_2 ( ) )
+MODIFIER protected RETURN void NAME METHOD_1  super . METHOD_1 ( )  schema = new TYPE_1 ( VAR_1 class )  VAR_2 = schema . METHOD_2 ( STRING_1 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.Account.Id NAME VAR_1 TYPE int NAME VAR_2 TYPE TYPE_2 NAME VAR_3 INIT = METHOD_2 ( VAR_1 ) COND VAR_3 . METHOD_1 ( VAR_2 )  commit ( VAR_3 )
+MODIFIER public RETURN TYPE_1 NAME notes COND ( notes ) == null  notes = VAR_1 . create ( db , change ( ) )  return notes ;
+MODIFIER protected static RETURN java.lang.String NAME METHOD_1 TYPE int NAME VAR_1 COND VAR_1 < INT_1  return STRING_1 + VAR_1 ;  return java.lang.String . METHOD_2 ( VAR_1 ) ;
+MODIFIER protected RETURN void NAME METHOD_1  bind ( VAR_1 class ) . to ( VAR_2 class )  install ( new TYPE_1 ( ) )  install ( new TYPE_1 ( ) )
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME req TYPE TYPE_3.HttpServletResponse NAME res TYPE java.lang.String NAME VAR_1  METHOD_2 ( res , VAR_1 )  return TYPE_4 . METHOD_3 ( req , res ) ;
+MODIFIER public final RETURN void NAME METHOD_1 TYPE TYPE_1<TYPE_2> NAME VAR_1  METHOD_2 ( VAR_1 , null )
+MODIFIER public RETURN Project.NameKey NAME METHOD_1  return new com.google.gerrit.reviewdb.client.Project.NameKey ( change . project ) ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1  return TYPE_1 . METHOD_2 ( VAR_1 , VAR_2 ) ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1 NAME req TYPE TYPE_2 NAME rsrc COND STRING_1 . equals ( req . METHOD_2 ( STRING_2 ) )  throw new TYPE_3 ( STRING_3 ) ;
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( new com.google.gerrit.reviewdb.client.Change . Id ( 1 ) , STRING_1 )  com.google.common.truth.Truth . METHOD_3 ( ) . METHOD_4 ( STRING_2 ) TYPE TYPE_2 NAME e BLOCK BLOCK
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME name COND ( name != null ) && ( ! ( name . isEmpty ( ) ) )  this . name = name
+MODIFIER protected abstract RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME event  VAR_1 = false COND ( event . METHOD_2 ( ) ) == ( VAR_2 ) COND VAR_3 . METHOD_3 ( )  VAR_1 = true  METHOD_4 ( )
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 INIT = VAR_2 . METHOD_2 ( STRING_1 ) TYPE TYPE_1 NAME r  r = new TYPE_1 ( VAR_1 , new TYPE_3 ( ) )  VAR_2 . METHOD_3 ( VAR_1 , r )  return r ;
+MODIFIER private static RETURN int NAME METHOD_1 TYPE int NAME VAR_1 TYPE java.lang.String NAME name TYPE int NAME VAR_2 COND VAR_1 == 0  return VAR_2 ;  TYPE_1 . METHOD_2 ( ( VAR_1 > 0 ) , STRING_1 , name , VAR_1 )  return VAR_1 ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.Change NAME change TYPE TYPE_1 NAME event TYPE com.google.gerrit.reviewdb.server.ReviewDb NAME db BLOCK BLOCK
+MODIFIER private static RETURN java.util.List<TYPE_1<com.google.gerrit.server.query.change.ChangeData>> NAME METHOD_1 TYPE TYPE_1<com.google.gerrit.server.query.change.ChangeData> NAME VAR_1 INIT = METHOD_2 ( )  return TYPE_2 . of ( not ( VAR_1 ) ) ;
+MODIFIER MODIFIER RETURN void NAME METHOD_1  VAR_1 . append ( log ( STRING_1 ) )  METHOD_2 ( VAR_2 . get ( ) , STRING_2 , STRING_1 , new java.lang.String [ ] { } )
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 INIT = TYPE_2 . METHOD_2 ( ) TYPE TYPE_3<TYPE_4.ReviewDb> NAME VAR_2 INIT = VAR_1 . METHOD_3 ( )  return new TYPE_5 ( VAR_2 ) ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE com.google.gerrit.server.query.change.ChangeData NAME cd  METHOD_1 ( cd . project ( ) , cd . getId ( ) ) TYPE com.google.gwtorm.server.OrmException NAME e  throw new java.io.IOException ( e ) ;
+MODIFIER public RETURN void NAME run  VAR_1 . METHOD_1 ( ) TYPE TYPE_1 NAME e  throw new TYPE_2 ( e ) ; TYPE TYPE_3 NAME e  throw new TYPE_2 ( e ) ;
+MODIFIER protected RETURN java.lang.String NAME getRefName  return TYPE_1 . METHOD_1 ( VAR_1 , getChangeId ( ) ) ;
+MODIFIER MODIFIER RETURN void NAME METHOD_1 TYPE TYPE_1<TYPE_2> NAME VAR_1 INIT = VAR_2 COND VAR_1 != null  VAR_2 = null  result = null  VAR_1 . METHOD_2 ( VAR_3 )
+MODIFIER public RETURN void NAME onSuccess TYPE TYPE_1 NAME result  TYPE_2 . display ( TYPE_3 . METHOD_1 ( changeId ) , new TYPE_4 ( changeId , null , null , false , true ) )
+MODIFIER private RETURN void NAME METHOD_1 TYPE java.lang.String NAME msg TYPE TYPE_1 NAME args COND VAR_1 . METHOD_2 ( )  VAR_1 . METHOD_3 ( ( ( ( STRING_1 + ( VAR_2 . METHOD_4 ( ) ) ) + STRING_2 ) + msg ) , args )
+MODIFIER protected RETURN void NAME METHOD_1  bind ( VAR_1 class ) . METHOD_2 ( new TYPE_1 ( false , false ) )
+MODIFIER public RETURN int NAME METHOD_1  return ( ( VAR_1 . METHOD_1 ( ) ) * INT_1 ) + ( value ) ;
+MODIFIER private static RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME group TYPE TYPE_1 NAME VAR_1 INIT = TYPE_3 . METHOD_2 ( group )  VAR_1 . METHOD_3 ( true )  return VAR_1 ;
+MODIFIER private RETURN void NAME METHOD_1 COND ( VAR_1 ) != null  VAR_1 . METHOD_2 ( VAR_2 . METHOD_3 ( ) )  VAR_1 . METHOD_4 ( )  VAR_1 = null  VAR_2 . METHOD_5 ( true )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = METHOD_2 ( )  TYPE_2 . assertEquals ( VAR_2 . METHOD_3 ( ) , VAR_3 )
+MODIFIER public static RETURN java.lang.String NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE com.google.gerrit.reviewdb.client.PatchSet.Id NAME revision TYPE java.lang.String NAME VAR_2  return TYPE_2 . METHOD_2 ( STRING_1 , VAR_1 , revision , VAR_2 , null , 0 ) ;
+MODIFIER public RETURN TYPE_1<TYPE_2> NAME get  return new TYPE_1 < TYPE_2 > ( key , TYPE_3 . METHOD_1 ( VAR_1 , type ) , STRING_1 ) ;
+MODIFIER private static RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2.Id NAME VAR_1 TYPE TYPE_3 NAME VAR_2 TYPE java.lang.String NAME VAR_3 INIT = VAR_2 . METHOD_2 ( )  return new TYPE_1 ( new TYPE_1 . Key ( VAR_1 , VAR_3 ) ) ;
+MODIFIER MODIFIER RETURN TYPE_1 NAME create TYPE TYPE_2<com.google.gerrit.server.query.change.ChangeData> NAME schema TYPE boolean NAME VAR_1
+MODIFIER public RETURN void NAME METHOD_1 COND ( VAR_1 ) != null  VAR_2 . METHOD_2 ( key )  key = null  VAR_1 = null  METHOD_3 ( STRING_1 , 0 )
+MODIFIER public static RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 COND VAR_1 instanceof TYPE_2  return true ;  return ( VAR_1 instanceof TYPE_3 ) && ( VAR_1 . getMessage ( ) . equals ( VAR_2 ) ) ;
+MODIFIER public synchronized RETURN int NAME METHOD_1  return VAR_1 ;
+MODIFIER protected synchronized RETURN void NAME METHOD_1 BLOCK BLOCK
+MODIFIER public RETURN void NAME METHOD_1  super . METHOD_1 ( ) COND VAR_1  METHOD_2 ( )  METHOD_3 ( )
+MODIFIER private RETURN com.google.gerrit.reviewdb.client.AccountGroup NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE TYPE_2 NAME VAR_2 INIT = new TYPE_2 ( VAR_1 . METHOD_2 ( TYPE_3 . getName ( ) ) . METHOD_3 ( ) )  return VAR_3 . get ( VAR_2 ) ;
+MODIFIER private RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  return ! ( label ( VAR_1 . METHOD_2 ( ) . get ( ) ) . isEmpty ( ) ) ;
+MODIFIER MODIFIER RETURN TYPE_1 NAME create TYPE TYPE_2.NameKey NAME project TYPE java.lang.String NAME VAR_1 TYPE TYPE_3 NAME m
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  METHOD_2 ( VAR_1 )  METHOD_3 ( VAR_1 )  METHOD_4 ( )  METHOD_5 ( )  METHOD_6 ( )  METHOD_7 ( )  METHOD_8 ( )  METHOD_9 ( )  METHOD_10 ( )
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( key )  VAR_2 . add ( key )
+MODIFIER public RETURN void NAME add TYPE TYPE_1 NAME VAR_1 TYPE TYPE_1 NAME i IN VAR_1  add ( i )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  this . VAR_2 = new TYPE_3 ( )
+MODIFIER public RETURN void NAME METHOD_1  assertEquals ( STRING_1 , new TYPE_1 ( STRING_2 , STRING_3 ) . METHOD_2 ( STRING_4 ) )
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE com.google.gerrit.reviewdb.server.ReviewDb NAME db TYPE com.google.gerrit.reviewdb.client.Change NAME change  return VAR_1 . create ( db , change ) ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.Change NAME change TYPE TYPE_1 NAME t  VAR_1 . error ( ( STRING_1 + ( change.getId ( ) ) ) , t )  VAR_2 . set ( false )  VAR_3 . update ( 1 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  METHOD_2 ( )
+MODIFIER public RETURN java.util.List<TYPE_1> NAME METHOD_1 TYPE java.util.List<TYPE_1> NAME r INIT = VAR_1 COND r == null  throw new TYPE_2 ( STRING_1 ) ;  VAR_1 = null  return r ;
+MODIFIER public RETURN java.lang.String NAME METHOD_1 COND ( VAR_1 ) != null TYPE java.lang.String NAME VAR_2 INIT = VAR_1 . getMessage ( ) COND VAR_2 != null  return VAR_2 . METHOD_2 ( ) ;  return STRING_1 ;
+MODIFIER private RETURN TYPE_1<TYPE_2.ChangeInfo> NAME METHOD_1 TYPE TYPE_2.ChangeInfo NAME res  return TYPE_1 . METHOD_2 ( res ) . METHOD_3 ( TYPE_3 . METHOD_4 ( 0 , VAR_1 ) . METHOD_5 ( ) ) ;
+MODIFIER public static RETURN void NAME METHOD_1 TYPE com.google.gerrit.reviewdb.client.PatchSet.Id NAME id TYPE java.lang.String NAME VAR_1 TYPE TYPE_1<TYPE_2> NAME VAR_2  TYPE_3 . revision ( id , STRING_1 ) . id ( VAR_1 ) . delete ( VAR_2 )
