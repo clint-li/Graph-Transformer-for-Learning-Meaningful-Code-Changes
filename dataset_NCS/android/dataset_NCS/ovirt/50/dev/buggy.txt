@@ -1,0 +1,435 @@
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.network NAME object  return object . getStatus ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME VAR_1  VAR_2 . append ( VAR_1 )
+MODIFIER private RETURN void NAME METHOD_1  METHOD_2 ( VAR_1 , METHOD_3 ( ) )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME model INIT = VAR_1 . METHOD_1 ( )  METHOD_1 ( model )  return model ;
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( )  METHOD_3 ( )
+MODIFIER public RETURN TYPE_1 NAME get  return TYPE_2 . METHOD_1 ( METHOD_2 ( METHOD_3 ( ) : : get ) ) ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE java.util.List<TYPE_1> NAME VAR_1  TYPE_2 . assertEquals ( VAR_1 . size ( ) , VAR_2 ) TYPE TYPE_1 NAME VAR_3 IN VAR_1  TYPE_2 . assertEquals ( VAR_4 , VAR_3 . METHOD_2 ( ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME value  this . VAR_1 = value
+MODIFIER public RETURN java.util.List<TYPE_1> NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME id TYPE TYPE_2 NAME VAR_1 INIT = METHOD_2 ( ) . addValue ( STRING_1 , id )  return METHOD_3 ( ) . METHOD_4 ( STRING_2 , new TYPE_3 ( ) , VAR_1 ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME event  model . setSelectedItem ( VAR_1 )  model . METHOD_2 ( TYPE_2 . METHOD_3 ( VAR_1 ) )  model . METHOD_4 ( model . METHOD_5 ( ) )
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME model TYPE java.lang.Object NAME returnValue  VAR_1 = ( ( org.ovirt.engine.core.common.businessentities.StoragePool ) ( returnValue ) )  METHOD_1 ( )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME VAR_1 COND STRING_1 . equals ( VAR_1 )  return VAR_2 ;  return VAR_3 ;
+MODIFIER public static RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE java.lang.String NAME VAR_2 TYPE TYPE_1 NAME VAR_3 INIT = org.ovirt.engine.core.dal.dbbroker.DbFacade.getInstance ( ) . METHOD_2 ( ) . get ( VAR_1 )  TYPE_2 . METHOD_1 ( VAR_3 , VAR_2 )
+MODIFIER public RETURN TYPE_1 NAME get TYPE TYPE_2 NAME params INIT = new TYPE_2 ( )  params . METHOD_1 ( VAR_1 ) TYPE TYPE_1 NAME quota INIT = METHOD_2 ( VAR_2 , params )  return quota ;
+MODIFIER MODIFIER RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VDS NAME vds TYPE long NAME VAR_1
+MODIFIER public RETURN void NAME METHOD_1  command = org.mockito.Mockito . METHOD_2 ( new TYPE_1 ( new TYPE_2 ( VAR_1 ) ) )  METHOD_3 ( command )  TYPE_3 . METHOD_4 ( command . validate ( ) )
+MODIFIER public RETURN java.lang.String NAME METHOD_1  return TYPE_1 . getParameters ( ) . METHOD_2 ( ) . METHOD_3 ( ) ;
+MODIFIER private static RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME pool INIT = TYPE_2 . METHOD_2 ( )  pool . METHOD_3 ( VAR_1 )  pool . METHOD_4 ( VAR_2 )  return pool ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.Integer NAME value  VAR_1 . METHOD_2 ( value )
+MODIFIER public RETURN void NAME METHOD_1  validator = METHOD_2 ( VAR_1 )  TYPE_1 . METHOD_3 ( validator . METHOD_4 ( ) . METHOD_5 ( ) )
+MODIFIER public RETURN void NAME METHOD_1  org.mockito.Mockito.when ( VAR_1 . METHOD_2 ( TYPE_1 . any ( ) ) ) . thenReturn ( TYPE_2 . METHOD_3 ( ) )  TYPE_3 . METHOD_4 ( cmd )
+MODIFIER protected RETURN void NAME METHOD_1  super . METHOD_1 ( )  METHOD_2 ( org.ovirt.engine.ui.frontend.Frontend . METHOD_3 ( METHOD_4 ( ) , VAR_1 . StorageDomain , METHOD_5 ( ) ) )  setItems ( METHOD_6 ( ) . METHOD_7 ( ) )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME rs TYPE int NAME VAR_1 TYPE TYPE_1 NAME entity INIT = new TYPE_1 ( TYPE_4 . METHOD_2 ( rs . METHOD_3 ( STRING_1 ) ) , METHOD_4 ( rs , STRING_2 ) )  return entity ;
+MODIFIER protected RETURN java.lang.Object NAME METHOD_1 TYPE java.lang.String NAME VAR_1  return TYPE_1 . getInstance ( ) . METHOD_2 ( VAR_1 ) ;
+MODIFIER public RETURN void NAME setEntity TYPE java.lang.Object NAME value COND ( value == null ) || ( ! ( value . equals ( getEntity ( ) ) ) )  super . setEntity ( value )  METHOD_1 ( )
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( STRING_1 , VAR_1 . METHOD_3 ( STRING_2 , STRING_3 ) )
+MODIFIER private static RETURN boolean NAME map TYPE java.lang.String NAME value TYPE TYPE_1 NAME VAR_1 INIT = TYPE_1 . METHOD_1 ( value )  return ( VAR_2 ) == VAR_1 ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME id TYPE boolean NAME VAR_1  METHOD_2 ( ) . METHOD_3 ( STRING_1 , METHOD_4 ( id ) . addValue ( STRING_2 , VAR_1 ) )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1  get ( ) TYPE TYPE_2 NAME parameters INIT = new TYPE_2 ( )  parameters . setId ( VAR_1 )  parameters . METHOD_2 ( true )  return METHOD_3 ( VAR_2 , parameters ) ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1  VAR_1 . METHOD_2 ( vm , vm . METHOD_3 ( ) )  TYPE_2 . METHOD_4 ( vm . getId ( ) )  VAR_1 . METHOD_5 ( )  return null ;
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME target TYPE java.lang.Object NAME returnValue  METHOD_1 ( ) . setEntity ( ( ( java.lang.Integer ) ( returnValue ) ) )  METHOD_2 ( )
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( true )  TYPE_1 . METHOD_3 ( VAR_2 . METHOD_4 ( VAR_3 ) )
+MODIFIER public RETURN TYPE_1<org.ovirt.engine.core.compat.Guid> NAME METHOD_1 COND ( VAR_1 ) == null  VAR_1 = TYPE_2 . METHOD_2 ( )  return new java.util.ArrayList < org.ovirt.engine.core.compat.Guid > ( VAR_1 ) ;
+MODIFIER MODIFIER RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.StoragePool NAME VAR_1 TYPE boolean NAME VAR_2
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME value COND ( this . VAR_1 . METHOD_2 ( ) ) != value  this . VAR_1 . METHOD_1 ( value )  METHOD_3 ( new TYPE_2 ( STRING_1 ) )
+MODIFIER public RETURN void NAME METHOD_1  super . METHOD_1 ( )  METHOD_2 ( )  METHOD_3 ( )  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( VAR_2 ) . METHOD_4 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1.VdcActionType NAME VAR_1 TYPE boolean NAME VAR_2  METHOD_2 ( VAR_1 , METHOD_3 ( ) , VAR_2 )
+MODIFIER protected RETURN java.util.List<TYPE_1> NAME METHOD_1 COND VAR_1 . isEmpty ( )  VAR_1 = TYPE_2 . METHOD_2 ( ) . METHOD_3 ( TYPE_2 . METHOD_4 ( ) . METHOD_5 ( ) )  return VAR_1 ;
+MODIFIER private RETURN void NAME METHOD_1  VAR_1 = new TYPE_1 < TYPE_2 > ( STRING_1 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.util.List<org.ovirt.engine.core.common.businessentities.StorageDomain> NAME result INIT = dao . METHOD_2 ( VAR_1 , VAR_2 , false )  TYPE_1 . METHOD_3 ( result )
+MODIFIER public RETURN java.lang.Object NAME METHOD_1  VAR_1 . METHOD_2 ( VAR_2 , java.lang.String . METHOD_3 ( STRING_1 , VAR_3 . METHOD_4 ( VAR_4 ) ) )  return null ;
+MODIFIER public RETURN java.lang.String NAME METHOD_1  return ( METHOD_2 ( ) ) != null ? METHOD_2 ( ) . METHOD_1 ( ) : null ;
+MODIFIER protected RETURN boolean NAME METHOD_1 TYPE TYPE_1.VdcActionType NAME VAR_1 TYPE TYPE_1.VdcActionParametersBase NAME params  return ( org.ovirt.engine.core.dal.dbbroker.DbFacade.getInstance ( ) . METHOD_2 ( ) . get ( TYPE_2 . getParameters ( ) . METHOD_3 ( ) ) ) != null ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1 NAME vm  VAR_1 . METHOD_2 ( true )  VAR_2 . METHOD_2 ( false )  VAR_3 . METHOD_2 ( false )  VAR_4 . METHOD_2 ( false )  VAR_5 . METHOD_2 ( false )
+MODIFIER public RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  return VAR_1 . getId ( ) ;
+MODIFIER protected RETURN TYPE_1.VdcActionParametersBase NAME METHOD_1 TYPE TYPE_2 NAME VAR_1  return new TYPE_3 ( VAR_1 . METHOD_2 ( ) . getValue ( ) , VAR_1 . getId ( ) ) ;
+MODIFIER public RETURN int NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VDS NAME VAR_1 TYPE org.ovirt.engine.core.common.businessentities.VDS NAME VAR_2  return java.lang.Integer . valueOf ( TYPE_1 . METHOD_2 ( VAR_1 ) ) . METHOD_3 ( TYPE_1 . METHOD_2 ( VAR_2 ) ) ;
+MODIFIER private RETURN org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface NAME METHOD_1 TYPE java.lang.String NAME name TYPE java.lang.String NAME VAR_1  return METHOD_2 ( org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) , name , true , null , null , VAR_1 , true ) ;
+MODIFIER public final RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME name TYPE java.lang.String NAME VAR_1  return ( ( TYPE_1 ) ( METHOD_2 ( VAR_2 , name , VAR_1 ) ) ) ;
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 TYPE boolean NAME VAR_2 TYPE TYPE_1 NAME VAR_3 INIT = TYPE_3 . METHOD_1 ( )  VAR_3 . METHOD_2 ( VAR_1 )  VAR_3 . METHOD_3 ( VAR_2 )  return VAR_3 ;
+MODIFIER public RETURN java.lang.String NAME METHOD_1  return METHOD_2 ( ) . METHOD_3 ( ) ;
+MODIFIER public RETURN java.lang.String NAME METHOD_1 COND ( ( VAR_1 ) == null ) && ( ( METHOD_2 ( ) ) != null )  VAR_1 = METHOD_2 ( ) . METHOD_3 ( )  return TYPE_1 . METHOD_4 ( VAR_1 ) ;
+MODIFIER public RETURN java.util.List<TYPE_1> NAME METHOD_1  return METHOD_2 ( VAR_1 , new org.ovirt.engine.core.common.queries.IdQueryParameters ( new org.ovirt.engine.core.compat.Guid ( VAR_2 ) ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME iface INIT = TYPE_2 . METHOD_2 ( )  METHOD_3 ( iface , true , org.mockito.Mockito . METHOD_4 ( 1 ) , VAR_1 , VAR_2 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.util.List<TYPE_1> NAME VAR_2 COND VAR_2 . METHOD_2 ( VAR_1 )  METHOD_3 ( VAR_1 , VAR_2 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME object INIT = METHOD_2 ( STRING_1 )  TYPE_2 . METHOD_3 ( object )  TYPE_2 . METHOD_4 ( object . getId ( ) )  TYPE_2 . METHOD_4 ( object . getName ( ) )
+MODIFIER public RETURN void NAME setEntity TYPE TYPE_1 NAME value  super . setEntity ( value )
+MODIFIER public static RETURN boolean NAME METHOD_1 TYPE int NAME VAR_1 TYPE org.ovirt.engine.core.compat.Version NAME version  return TYPE_1 . METHOD_2 ( VAR_1 , version ) . METHOD_3 ( VAR_2 ) ;
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME target TYPE java.lang.Object NAME returnValue TYPE TYPE_1<TYPE_2> NAME VAR_1 INIT = METHOD_1 ( ( ( java.util.List < TYPE_3 . Disk > ) ( returnValue ) ) )  METHOD_2 ( VAR_1 , vm )
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.ui.uicommonweb.UICommand NAME command COND command == ( VAR_1 ) COND METHOD_2 ( )  METHOD_3 ( ) COND command == ( VAR_2 )  VAR_3 . METHOD_1 ( command )
+MODIFIER public RETURN void NAME METHOD_1  parameters = new TYPE_1 ( org.ovirt.engine.core.compat.Guid . METHOD_2 ( ) )  parameters . METHOD_3 ( org.ovirt.engine.core.compat.Guid . METHOD_2 ( ) )  command = org.mockito.Mockito . METHOD_4 ( new TYPE_2 < TYPE_1 > ( parameters , null ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE int NAME VAR_1 INIT = 0 TYPE TYPE_1 NAME VAR_2 INIT = METHOD_2 ( 0 , VAR_1 )  TYPE_2 . METHOD_3 ( VAR_2 . METHOD_4 ( ) )
+MODIFIER protected RETURN java.util.List<TYPE_1<?>> NAME METHOD_1 COND getParameters ( ) . METHOD_2 ( )  return TYPE_2 . METHOD_3 ( VAR_1 class ) ;  return TYPE_2 . METHOD_3 ( VAR_2 class ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE java.util.List<org.ovirt.engine.core.compat.Guid> NAME VAR_2  super . METHOD_1 ( VAR_1 , VAR_2 )  METHOD_2 ( ) . METHOD_3 ( )  TYPE_1 . METHOD_4 ( VAR_1 )
+MODIFIER public static RETURN boolean NAME METHOD_1 TYPE java.lang.String NAME version  return ( ( java.lang.Boolean ) ( TYPE_1 . METHOD_2 ( VAR_1 , version ) ) ) ;
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VdsNetworkInterface NAME i  return i . getName ( ) . equals ( getParameters ( ) . METHOD_2 ( ) ) ;
+MODIFIER public RETURN org.ovirt.engine.core.common.businessentities.StorageDomain NAME getEntity  return ( ( org.ovirt.engine.core.common.businessentities.StorageDomain ) ( super . getEntity ( ) ) ) ;
+MODIFIER private RETURN java.util.List<TYPE_1> NAME METHOD_1  return TYPE_2 . METHOD_2 ( new TYPE_1 ( VAR_1 , VAR_2 , VAR_3 , vmId , VAR_4 ) ) ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1 NAME command  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( command ) . METHOD_2 ( )  org.mockito.Mockito.doReturn ( METHOD_3 ( ) ) . when ( VAR_1 ) . METHOD_4 ( TYPE_2 . any ( VAR_2 . Guid class ) )
+MODIFIER public RETURN void NAME METHOD_1  map = new TYPE_1 ( )  cmd . METHOD_2 ( )  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( cmd ) . METHOD_3 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface NAME VAR_1  METHOD_2 ( VAR_1 . METHOD_3 ( ) )  METHOD_4 ( VAR_1 . METHOD_5 ( ) )  METHOD_6 ( VAR_1 . METHOD_7 ( ) )
+MODIFIER private RETURN java.util.List<TYPE_1> NAME METHOD_1 TYPE java.util.List<TYPE_1> NAME VAR_1 INIT = METHOD_2 ( TYPE_2 . METHOD_3 ( ) . METHOD_4 ( ) , true , null )  TYPE_3 . getInstance ( ) . METHOD_5 ( VAR_1 )  return VAR_1 ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.network NAME VAR_1 INIT = new org.ovirt.engine.core.common.businessentities . network ( ) TYPE TYPE_1 NAME VAR_2 INIT = new TYPE_1 ( )  TYPE_2 . METHOD_2 ( ( ( VAR_2 . METHOD_3 ( VAR_1 ) . length ( ) ) > 0 ) )
+MODIFIER public RETURN void NAME METHOD_1 COND ( frontend . METHOD_2 ( ) ) != null  frontend . METHOD_2 ( ) . METHOD_3 ( )  TYPE_1 . METHOD_4 ( )
+MODIFIER private RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME storageDomain COND ( METHOD_2 ( ) . METHOD_3 ( ) ) == ( VAR_1 )  return METHOD_4 ( storageDomain ) ;  return METHOD_5 ( storageDomain ) ;
+MODIFIER public RETURN java.lang.String NAME METHOD_1 TYPE java.lang.Object NAME object  return ( ( org.ovirt.engine.core.common.businessentities.StoragePool ) ( object ) ) . METHOD_2 ( ) ;
+MODIFIER public RETURN java.lang.String NAME toString  return TYPE_1 . METHOD_1 ( this ) . append ( STRING_1 , ( METHOD_2 ( ) ? METHOD_3 ( ) : STRING_2 ) ) . METHOD_4 ( ) ;
+MODIFIER protected RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VDSGroup NAME VAR_1  return TYPE_1 . METHOD_2 ( VAR_1 . METHOD_3 ( ) , TYPE_2 . getVdsGroup ( ) . METHOD_3 ( ) , TYPE_2 . getVdsGroup ( ) . METHOD_4 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME VAR_1 INIT = STRING_1 TYPE TYPE_1 NAME VAR_2 INIT = METHOD_2 ( VAR_1 , new TYPE_2 ( ) ) TYPE TYPE_3 NAME VAR_3  VAR_3 = VAR_2 . METHOD_3 ( )
+MODIFIER public RETURN java.lang.String NAME getValue TYPE org.ovirt.engine.core.common.businessentities.VM NAME object  return object . METHOD_1 ( ) ;
+MODIFIER public RETURN java.util.ArrayList<TYPE_1> NAME METHOD_1 TYPE TYPE_2.VdcActionType NAME VAR_1 TYPE java.util.ArrayList<TYPE_2.VdcActionParametersBase> NAME parameters TYPE TYPE_3 NAME VAR_2  return METHOD_2 ( VAR_1 , parameters , true , false , VAR_2 ) ;
+MODIFIER public RETURN java.util.List<TYPE_1> NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME id TYPE TYPE_2 NAME type TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE boolean NAME VAR_2 TYPE int NAME VAR_3 INIT = VAR_4 < java.lang.Integer > METHOD_2 ( VAR_5 )  return METHOD_1 ( id , type , VAR_1 , VAR_2 , VAR_3 ) ;
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( false )
+MODIFIER protected RETURN boolean NAME METHOD_1  return validate ( TYPE_1 . METHOD_1 ( TYPE_2 . METHOD_2 ( TYPE_3 . getParameters ( ) . METHOD_3 ( ) , TYPE_3 . METHOD_4 ( ) ) , TYPE_3 . METHOD_5 ( ) ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1<TYPE_2<TYPE_3>> NAME validate INIT = validate ( new TYPE_3 ( 0 ) )  TYPE_4 . METHOD_2 ( ( ( validate . size ( ) ) == 0 ) )
+MODIFIER protected RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1  this . VAR_1 = VAR_1
+MODIFIER protected RETURN void NAME METHOD_1  METHOD_2 ( ) TYPE org.ovirt.engine.core.common.businessentities.VM NAME vm INIT = getVm ( ) COND vm . METHOD_3 ( ) . isEmpty ( )  METHOD_4 ( )  METHOD_5 ( )  METHOD_6 ( true )
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1.AddVmCommand<?> NAME cmd  org.mockito.Mockito.when ( VAR_1 . METHOD_2 ( ) ) . thenReturn ( VAR_2 )  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( cmd ) . METHOD_3 ( )
+MODIFIER public RETURN java.lang.String NAME METHOD_1 TYPE java.lang.Object NAME object  return ( ( TYPE_1 ) ( object ) ) . getName ( ) ;
+MODIFIER public final RETURN java.lang.Object NAME METHOD_1 TYPE java.lang.String NAME VAR_1 TYPE boolean NAME VAR_2 TYPE java.lang.String NAME VAR_3 INIT = TYPE_1 . METHOD_2 ( ) COND VAR_3 == null  return null ;  return METHOD_1 ( VAR_3 , VAR_1 , VAR_2 ) ;
+MODIFIER protected RETURN void NAME METHOD_1  super . METHOD_1 ( )  METHOD_2 ( )  TYPE_1 . METHOD_3 ( TYPE_1 . METHOD_4 ( ) )  TYPE_1 . METHOD_5 ( )
+MODIFIER public static RETURN java.lang.Integer NAME METHOD_1 TYPE java.lang.Integer NAME VAR_1 INIT = ( ( java.lang.Integer ) ( TYPE_1 . METHOD_2 ( VAR_2 ) ) ) COND VAR_1 == null  return INT_1 ;  return VAR_1 ;
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface NAME i  return ! ( TYPE_1 . METHOD_2 ( i . METHOD_3 ( ) ) ) ;
+MODIFIER protected RETURN boolean NAME METHOD_1  return ( METHOD_2 ( ) ) && ( METHOD_3 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME value  VAR_1 . METHOD_1 ( value )
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 = org.mockito.Mockito . METHOD_2 ( new TYPE_1 ( VAR_2 , new TYPE_2 ( ) ) )  org.mockito.Mockito.doReturn ( VAR_3 ) . doReturn ( VAR_4 ) . when ( VAR_1 ) . METHOD_3 ( TYPE_3 . METHOD_4 ( ) )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME id  return inject ( new TYPE_2 ( VAR_1 , id , this , VAR_2 , METHOD_2 ( ) , METHOD_3 ( ) , VAR_3 ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.Object NAME model TYPE java.lang.Object NAME result  METHOD_2 ( ( ( java.util.List < java.lang.String > ) ( result ) ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1<TYPE_2,?> NAME column TYPE int NAME VAR_1  METHOD_2 ( column , ( VAR_1 + STRING_1 ) )
+MODIFIER public static RETURN void NAME METHOD_1 TYPE org.ovirt.engine.ui.frontend.AsyncQuery<java.util.List<java.lang.String>> NAME aQuery TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE boolean NAME VAR_2 TYPE TYPE_1 NAME VAR_3  TYPE_2 . METHOD_1 ( aQuery , VAR_1 , VAR_2 , VAR_3 , new TYPE_3 ( ) )
+MODIFIER public RETURN java.util.List<TYPE_1> NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME id  return METHOD_1 ( id , null , false ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.lang.Object NAME sender TYPE TYPE_2 NAME args  METHOD_2 ( ) . METHOD_3 ( ( ( java.lang.Boolean ) ( model . METHOD_4 ( ) . METHOD_5 ( ) . getEntity ( ) ) ) )
+MODIFIER protected RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( ) . METHOD_3 ( )  METHOD_4 ( ) . METHOD_5 ( VAR_1 )  METHOD_6 ( ) . METHOD_5 ( VAR_2 )  METHOD_6 ( ) . METHOD_5 ( VAR_3 )  METHOD_7 ( VAR_3 )
+MODIFIER public RETURN int NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.network.Network NAME VAR_1 TYPE org.ovirt.engine.core.common.businessentities.network.Network NAME VAR_2  return TYPE_1 . equals ( VAR_1 . METHOD_2 ( ) ) ? - 1 : VAR_1 . METHOD_2 ( ) . METHOD_3 ( VAR_2 . METHOD_2 ( ) ) ;
+MODIFIER private static RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.lang.String NAME VAR_2 INIT = ( ( java.lang.String ) ( VAR_1 . METHOD_2 ( VAR_3 ) ) )  return VAR_2 == null ? null : new org.ovirt.engine.core.compat.Guid ( VAR_2 ) ;
+MODIFIER public RETURN java.lang.Integer NAME METHOD_1  return TYPE_1 . METHOD_1 ( vm . METHOD_2 ( ) , vm . METHOD_3 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( validator ) . METHOD_2 ( org.mockito.Mockito . any ( VAR_2 . VDS class ) )  org.mockito.Mockito.doReturn ( VAR_3 ) . when ( validator ) . METHOD_3 ( )
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME model TYPE java.lang.Object NAME returnValue TYPE java.util.List<org.ovirt.engine.core.common.businessentities.network.Network> NAME VAR_1 INIT = ( ( java.util.List < org.ovirt.engine.core.common.businessentities.network.Network > ) ( returnValue ) )  VAR_2 = VAR_1  METHOD_1 ( )  METHOD_2 ( )  METHOD_3 ( )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( true , true , true )
+MODIFIER public static RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1 TYPE TYPE_1 NAME id  return id == null ? null : id . getValue ( ) ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VDS NAME host INIT = TYPE_1 . getSelectedItem ( ) COND host == null  return ;  METHOD_2 ( host )  VAR_1 . METHOD_3 ( host . METHOD_4 ( ) )  VAR_1 . METHOD_5 ( )
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( new TYPE_2 ( ) . METHOD_3 ( STRING_1 ) . METHOD_4 ( ) )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( ) TYPE TYPE_1<TYPE_2> NAME VAR_1 INIT = METHOD_3 ( )  TYPE_3 . METHOD_4 ( VAR_1 . METHOD_5 ( ) )
+MODIFIER public RETURN void NAME METHOD_1  validator = new TYPE_1 ( network , VAR_1 , VAR_2 )
+MODIFIER public static RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.network.Network NAME VAR_1 TYPE org.ovirt.engine.core.compat.Version NAME VAR_2  return ( ( ! ( VAR_1 . METHOD_2 ( ) ) ) && ( TYPE_1 . METHOD_3 ( VAR_1 ) ) ) && ( TYPE_2 . METHOD_4 ( VAR_2 ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.util.List<TYPE_1> NAME result INIT = dao . METHOD_2 ( org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) )  TYPE_2 . assertEquals ( result . size ( ) , 0 )
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME model  model . METHOD_2 ( TYPE_2 . METHOD_3 ( VAR_1 class ) . value ( ) )  return model ;
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.lang.String NAME item TYPE boolean NAME returnValue INIT = TYPE_2 . METHOD_2 ( VAR_1 . METHOD_3 ( ) ) . METHOD_1 ( item ) COND ! returnValue  this . METHOD_4 ( VAR_1 )  return returnValue ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 COND ( this . VAR_1 ) == null  METHOD_2 ( )  return this . VAR_1 ;
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( VAR_1 . METHOD_3 ( ) . get ( VAR_2 ) )
+MODIFIER private RETURN void NAME METHOD_1 TYPE java.util.List<TYPE_1.Disk> NAME VAR_1 TYPE boolean NAME VAR_2  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( VAR_3 ) . METHOD_2 ( vm . getId ( ) , VAR_2 )
+MODIFIER private RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE TYPE_1 NAME VAR_2 TYPE TYPE_2.VdcActionType NAME VAR_3 TYPE java.lang.String NAME VAR_4 TYPE java.util.Map<org.ovirt.engine.core.compat.Guid,TYPE_3> NAME VAR_5  return TYPE_4 . METHOD_2 ( VAR_1 , this , VAR_2 , METHOD_3 ( VAR_3 ) , VAR_4 , VAR_5 ) ;
+MODIFIER public RETURN java.lang.Object NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VDSGroup NAME VAR_1 INIT = org.ovirt.engine.core.dal.dbbroker.DbFacade.getInstance ( ) . METHOD_2 ( ) . get ( VAR_2 . METHOD_3 ( ) )  VAR_3 . METHOD_4 ( VAR_4 , VAR_1 . METHOD_5 ( ) )  return null ;
+MODIFIER public RETURN void NAME METHOD_1  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( VAR_2 ) . METHOD_2 ( )  TYPE_1 . METHOD_3 ( cmd )
+MODIFIER public static RETURN org.ovirt.engine.core.compat.Version NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  return ( VAR_1 . METHOD_2 ( ) ) != null ? TYPE_2 . getInstance ( ) . METHOD_3 ( ) . get ( VAR_1 . METHOD_2 ( ) ) . METHOD_4 ( ) : VAR_2 ;
+MODIFIER protected RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( ) . METHOD_3 ( ) . METHOD_4 ( TYPE_1 . getParameters ( ) . METHOD_5 ( ) . getId ( ) )  TYPE_1 . METHOD_6 ( true )
+MODIFIER public static RETURN void NAME METHOD_1 COND ( TYPE_1 ) != null  TYPE_1 . METHOD_2 ( )  VAR_1 = null  VAR_2 = null  VAR_3 = null  VAR_4 = null  VAR_5 = null
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = new TYPE_1 ( )  VAR_1 . METHOD_2 ( STRING_1 )  VAR_1 . METHOD_3 ( VAR_2 )  VAR_1 . METHOD_4 ( VAR_3 )  return VAR_1 ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2.DiskImage NAME object COND object . METHOD_2 ( )  return TYPE_3 . METHOD_3 ( VAR_1 . METHOD_4 ( ) ) ;  return null ;
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE boolean NAME VAR_1 INIT = TYPE_1 . METHOD_2 ( getEntity ( ) . METHOD_3 ( ) ) TYPE boolean NAME VAR_2 INIT = ( getEntity ( ) . METHOD_4 ( ) ) != null  return VAR_1 && VAR_2 ;
+MODIFIER public RETURN java.util.List<TYPE_1> NAME METHOD_1 TYPE java.lang.String NAME VAR_1 TYPE java.util.List<TYPE_1> NAME VAR_2 INIT = METHOD_2 ( ) . METHOD_3 ( VAR_1 , VAR_3 )  return VAR_2 ;
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 = org.mockito.Mockito . METHOD_2 ( TYPE_1 . getInstance ( ) )  org.mockito.Mockito.doReturn ( VAR_2 ) . when ( VAR_1 ) . METHOD_3 ( )
+MODIFIER public RETURN java.lang.String NAME getValue TYPE TYPE_1 NAME object  return ( object . METHOD_1 ( ) . METHOD_2 ( ) ) == null ? STRING_1 : object . METHOD_1 ( ) . METHOD_2 ( ) . toString ( ) ;
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE TYPE_2 NAME VAR_2  return METHOD_1 ( VAR_1 , INT_1 , INT_2 , VAR_2 ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME item  METHOD_1 ( item , INT_1 )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( )  METHOD_3 ( )  METHOD_4 ( )  METHOD_5 ( )
+MODIFIER public RETURN int NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.network NAME VAR_1 TYPE org.ovirt.engine.core.common.businessentities.network NAME VAR_2  return TYPE_1 . equals ( VAR_1 . METHOD_2 ( ) ) ? - 1 : VAR_1 . METHOD_2 ( ) . METHOD_3 ( VAR_2 . METHOD_2 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME event  METHOD_2 ( event . METHOD_3 ( ) )  VAR_1 = event . METHOD_3 ( ) . get ( 0 )  METHOD_4 ( VAR_2 )
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . assertEquals ( validator . METHOD_2 ( TYPE_2 . METHOD_3 ( VAR_1 . METHOD_4 ( ) , VAR_2 . METHOD_4 ( ) ) ) , VAR_3 )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME params INIT = new TYPE_1 ( TYPE_2 . METHOD_2 ( TYPE_3 . METHOD_3 ( ) ) , true )  return METHOD_4 ( params , TYPE_3 . METHOD_5 ( ) ) ;
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 COND ( VAR_1 ) == null  VAR_1 = METHOD_2 ( ) . get ( VAR_2 . getId ( ) )  return VAR_1 ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.util.List<TYPE_1> NAME VAR_1  VAR_2 . METHOD_2 ( VAR_1 )  VAR_2 . METHOD_3 ( TYPE_2 . METHOD_4 ( TYPE_3 : : getName ) )
+MODIFIER private RETURN void NAME METHOD_1  org.mockito.Mockito.when ( VAR_1 . METHOD_2 ( TYPE_1 . any ( VAR_2 . Guid class ) ) ) . thenReturn ( TYPE_2 . METHOD_3 ( ) . get ( 0 ) )
+MODIFIER public RETURN TYPE_1 NAME get NAME VAR_1 . METHOD_1 ( )  return METHOD_2 ( ) ;  return METHOD_3 ( ) ;  return null ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE boolean NAME VAR_1  getModel ( ) . METHOD_2 ( ) . setIsChangable ( VAR_1 )  getModel ( ) . METHOD_2 ( ) . setEntity ( VAR_1 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = new TYPE_1 ( ) TYPE TYPE_2 NAME VAR_2 INIT = TYPE_3 . METHOD_2 ( VAR_1 )  TYPE_4 . assertEquals ( VAR_3 , VAR_2 . METHOD_3 ( ) )
+MODIFIER private static RETURN TYPE_1 NAME METHOD_1  return TYPE_2 . METHOD_2 ( VAR_1 class , STRING_1 ) ;
+MODIFIER protected RETURN TYPE_1 NAME getEntity TYPE int NAME VAR_1 TYPE TYPE_1 NAME VAR_2 INIT = new TYPE_1 ( )  VAR_2 . METHOD_1 ( VAR_3 [ VAR_1 ] . toString ( ) )  VAR_2 . METHOD_2 ( ( STRING_1 + ( STRING_2 + STRING_3 ) ) )  return VAR_2 ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.Object NAME target TYPE java.lang.Object NAME returnValue BLOCK BLOCK
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VM NAME vm TYPE TYPE_1 NAME status TYPE TYPE_2 NAME VAR_1  METHOD_1 ( vm , status , VAR_1 , VAR_2 , VAR_3 , vm . METHOD_2 ( ) )
+MODIFIER protected RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.StoragePool NAME VAR_1  org.mockito.Mockito.when ( VAR_2 . get ( TYPE_1 . any ( VAR_3 . Guid class ) ) ) . thenReturn ( VAR_1 )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME name TYPE java.util.Map NAME value COND ( value != null ) && ( value . METHOD_2 ( ) . isEmpty ( ) )  return METHOD_3 ( name , value ) ;  return this ;
+MODIFIER private static RETURN java.lang.String NAME METHOD_1  return STRING_1 ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE java.util.List<org.ovirt.engine.core.common.businessentities.StorageDomain> NAME VAR_1 TYPE org.ovirt.engine.core.common.businessentities.StoragePool NAME pool TYPE org.ovirt.engine.core.common.businessentities.StorageDomain NAME VAR_2 IN VAR_1 COND ( VAR_2 . getStatus ( ) ) == ( VAR_3 )  METHOD_2 ( VAR_2 , pool )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( )  TYPE_1 . METHOD_3 ( )  TYPE_1 . METHOD_4 ( )  METHOD_5 ( )  METHOD_6 ( VAR_1 )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( )  TYPE_1 . METHOD_3 ( )  TYPE_1 . METHOD_4 ( )  METHOD_5 ( )  TYPE_1 . METHOD_6 ( )  METHOD_7 ( VAR_1 )
+MODIFIER public static RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2.VdcBllMessages NAME VAR_1 TYPE java.lang.String NAME VAR_2  return new TYPE_1 ( VAR_1 , VAR_2 ) ;
+MODIFIER protected RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( ) . METHOD_3 ( TYPE_1 . METHOD_4 ( ) . METHOD_5 ( ) . METHOD_6 ( TYPE_1 . getParameters ( ) . getStoragePoolId ( ) , TYPE_1 . getParameters ( ) . METHOD_7 ( ) ) )
+MODIFIER public RETURN void NAME METHOD_1  org.mockito.Mockito.when ( VAR_1 . METHOD_2 ( TYPE_1 . any ( VAR_2 . Guid class ) ) ) . thenReturn ( METHOD_3 ( ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME result TYPE TYPE_2 NAME VAR_1 INIT = ( ( TYPE_2 ) ( result . METHOD_2 ( ) ) )  VAR_1 . METHOD_3 ( result )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME context TYPE TYPE_2 NAME value TYPE TYPE_3 NAME VAR_1  VAR_1 . append ( VAR_2 . METHOD_2 ( TYPE_4 . METHOD_3 ( VAR_3 , value . METHOD_4 ( ) ) , value . METHOD_4 ( ) ) )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1  METHOD_2 ( ) . METHOD_3 ( getParameters ( ) . METHOD_4 ( ) , getParameters ( ) . METHOD_5 ( ) . getId ( ) )  return null ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME object  super . METHOD_1 ( object ) COND object . METHOD_2 ( )  object . METHOD_3 ( ) . setEntity ( 1 )  VAR_1 . METHOD_4 ( false )
+MODIFIER public RETURN void NAME METHOD_1  parameters = new TYPE_1 ( org.ovirt.engine.core.compat.Guid . METHOD_2 ( ) )  parameters . METHOD_3 ( org.ovirt.engine.core.compat.Guid . METHOD_2 ( ) )  command = org.mockito.Mockito . METHOD_4 ( new TYPE_2 < TYPE_1 > ( parameters ) )
+MODIFIER private RETURN void NAME METHOD_1  cmd . METHOD_2 ( )  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( cmd ) . METHOD_3 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = VAR_2 . METHOD_2 ( )  TYPE_2 . METHOD_3 ( STRING_1 , VAR_1 )  TYPE_2 . assertEquals ( STRING_2 , VAR_1 . getString ( STRING_3 ) )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( )  command . getParameters ( ) . METHOD_3 ( VAR_1 )  TYPE_1 . METHOD_4 ( command . validate ( ) )
+MODIFIER public static RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 TYPE TYPE_1 NAME instance INIT = new TYPE_1 ( )  return instance ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE int NAME VAR_1 TYPE TYPE_1 NAME model TYPE java.lang.Boolean NAME value  ( ( TYPE_1 ) ( model ) ) . METHOD_2 ( ) . setEntity ( value )  table . METHOD_3 ( ) . METHOD_4 ( VAR_2 )
+MODIFIER MODIFIER RETURN void NAME METHOD_1 TYPE java.lang.Object NAME VAR_1 TYPE TYPE_1<?> NAME VAR_2
+MODIFIER public RETURN java.lang.String NAME METHOD_1 TYPE TYPE_1 NAME version TYPE java.lang.String NAME VAR_1  VAR_1 = version . METHOD_2 ( )  return new TYPE_2 < java.lang.String > ( TYPE_3 . instance ( ) . METHOD_3 ( ) . METHOD_4 ( ) ) . METHOD_1 ( VAR_1 ) ;
+MODIFIER public RETURN java.util.List<org.ovirt.engine.core.common.businessentities.VDSGroup> NAME METHOD_1 TYPE java.lang.String NAME VAR_1  return new TYPE_1 ( VAR_2 ) . METHOD_2 ( VAR_1 , VAR_3 . instance ) ;
+MODIFIER public RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1  return METHOD_2 ( ) . getValue ( ) ;
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE org.ovirt.engine.ui.uicommonweb.models.EntityModel<TYPE_2> NAME VAR_1  return VAR_1 . getEntity ( ) . METHOD_2 ( ) ;
+MODIFIER public synchronized RETURN void NAME METHOD_1  VAR_1 . METHOD_1 ( )  VAR_2 . METHOD_1 ( )
+MODIFIER public RETURN java.lang.Object NAME METHOD_1 COND ( ( java.lang.Boolean ) ( VAR_1 . METHOD_2 ( VAR_2 ) ) )  VAR_3 . METHOD_3 ( VAR_4 , STRING_1 )  METHOD_4 ( )  return null ;
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . getInstance ( ) . METHOD_2 ( VAR_1 , VAR_2 , new TYPE_2 ( VAR_3 ) )
+MODIFIER protected RETURN org.ovirt.engine.core.common.businessentities.VDS NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VDS NAME object COND object instanceof org.ovirt.engine.core.common.businessentities.VDS  return object ;  return null ;
+MODIFIER public RETURN TYPE_1<java.lang.String> NAME METHOD_1 TYPE TYPE_2<java.lang.String> NAME VAR_1 INIT = new TYPE_2 ( super . METHOD_1 ( ) )  VAR_1 . METHOD_2 ( VAR_2 )  return VAR_1 ;
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME node TYPE java.lang.String NAME VAR_1 TYPE TYPE_2 NAME VAR_2  this . VAR_3 = VAR_1 COND VAR_2 == null  return node . METHOD_2 ( VAR_1 ) ;  return node . METHOD_2 ( VAR_1 , VAR_2 ) ;
+MODIFIER MODIFIER RETURN TYPE_1.ValidationResult NAME METHOD_1 TYPE TYPE_2 NAME value
+MODIFIER protected RETURN java.lang.String NAME METHOD_1 TYPE java.lang.String NAME url  return TYPE_1 . METHOD_1 ( url , TYPE_2 . getVm ( ) . getStoragePoolId ( ) , TYPE_2 . METHOD_2 ( ) ) ;
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME source  return name . equals ( source . METHOD_2 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VdsNetworkInterface NAME VAR_1 INIT = METHOD_2 ( VAR_2 , null )  METHOD_3 ( VAR_1 ) TYPE TYPE_1 NAME VAR_3 INIT = METHOD_4 ( METHOD_5 ( VAR_1 ) )  METHOD_6 ( VAR_3 , VAR_4 , VAR_1 . getName ( ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME value COND ( VAR_1 ) == null  VAR_1 = new TYPE_1 ( )  VAR_1 = value
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1<TYPE_2> NAME errors  VAR_1 = TYPE_3 . METHOD_2 ( errors )
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1  return new TYPE_1 ( org.ovirt.engine.core.compat.Guid . METHOD_2 ( ) , VAR_1 , true , VAR_2 , STRING_1 , STRING_2 , false , false , true ) ;
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( METHOD_3 ( ) . METHOD_4 ( VAR_1 ) )
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( VAR_2 , VAR_3 )  METHOD_3 ( )  METHOD_4 ( )  METHOD_5 ( TYPE_1 . toString ( ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  VAR_2 . METHOD_2 ( ) . METHOD_3 ( VAR_1 . METHOD_4 ( ) . METHOD_2 ( ) )
+MODIFIER protected RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( ) . METHOD_3 ( TYPE_1 . METHOD_4 ( ) . METHOD_5 ( ) . METHOD_6 ( TYPE_1 . getParameters ( ) . getName ( ) , false ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 INIT = org.ovirt.engine.core.compat.Guid . METHOD_2 ( )  METHOD_3 ( VAR_1 )  METHOD_4 ( )  METHOD_5 ( )  METHOD_6 ( VAR_1 )  METHOD_7 ( )  METHOD_8 ( )
+MODIFIER public static RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME source TYPE TYPE_1 NAME VAR_1 TYPE TYPE_2 NAME status  return VAR_2 . METHOD_2 ( source , VAR_1 , status ) ;
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2.Disk NAME disk  return new TYPE_1 ( disk , TYPE_3 . METHOD_2 ( ) ) ;
+MODIFIER protected RETURN void NAME METHOD_1  VAR_1 = new TYPE_1 ( METHOD_2 ( ) , METHOD_3 ( ) )  validate ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.util.List<org.ovirt.engine.core.common.businessentities.VDS> NAME result INIT = dao . METHOD_2 ( VAR_1 . METHOD_3 ( ) , VAR_2 , true )  METHOD_4 ( result )
+MODIFIER public RETURN java.lang.Object NAME METHOD_1  return getId ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.Object NAME model TYPE java.lang.Object NAME result TYPE TYPE_1 NAME VAR_1 INIT = ( ( TYPE_1 ) ( model ) )  VAR_1 . METHOD_2 ( ( ( java.lang.Integer ) ( result ) ) )
+MODIFIER public RETURN void NAME METHOD_1 COND ( METHOD_2 ( ) ) != null  super . METHOD_1 ( )
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VDSGroup NAME cluster TYPE TYPE_1 NAME VAR_1 INIT = new TYPE_1 ( cluster )  VAR_1 . METHOD_2 ( false )  return VAR_1 ;
+MODIFIER public RETURN java.lang.String NAME METHOD_1  return this . name ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1 NAME parameters INIT = METHOD_2 ( )  command = TYPE_2 . METHOD_3 ( new TYPE_3 < TYPE_1 > ( parameters ) )  TYPE_2 . METHOD_4 ( VAR_1 class )
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1 NAME model INIT = new TYPE_2 ( this , false )  model . setEntity ( new TYPE_3 ( ) )  METHOD_2 ( model )
+MODIFIER protected RETURN void NAME METHOD_1  super . METHOD_1 ( )  METHOD_2 ( org.ovirt.engine.ui.frontend.Frontend . METHOD_3 ( VAR_1 , new TYPE_1 ( getEntity ( ) . METHOD_4 ( ) ) ) )  setItems ( METHOD_5 ( ) . METHOD_6 ( ) )
+MODIFIER public RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1  return id . METHOD_2 ( ) ;
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( ( ( dao . METHOD_3 ( VAR_1 ) . size ( ) ) == INT_1 ) )  TYPE_1 . METHOD_2 ( dao . METHOD_3 ( VAR_2 ) . isEmpty ( ) )
+MODIFIER private RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( ) . METHOD_3 ( VAR_1 . METHOD_2 ( ) . METHOD_4 ( ) )  VAR_1 . METHOD_5 ( )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  METHOD_2 ( VAR_2 class , VAR_1 )  return METHOD_3 ( VAR_1 , new TYPE_2 ( VAR_3 , VAR_4 class ) , VAR_5 , new TYPE_3 ( ) ) ;
+MODIFIER public RETURN java.lang.Object NAME METHOD_1  VAR_1 . METHOD_2 ( java.lang.String . METHOD_3 ( STRING_1 , VAR_2 ) , VAR_3 < java.lang.Boolean > METHOD_4 ( VAR_4 ) . toString ( ) )  return null ;
+MODIFIER private RETURN java.util.List<org.ovirt.engine.core.common.businessentities.DiskImage> NAME METHOD_1  return TYPE_1 . METHOD_1 ( TYPE_2 . METHOD_2 ( ) . METHOD_3 ( ) , TYPE_2 . METHOD_2 ( ) . METHOD_4 ( ) ) ;
+MODIFIER protected RETURN boolean NAME METHOD_1  return TYPE_1 . METHOD_2 ( TYPE_2 . METHOD_3 ( ) . METHOD_4 ( ) , TYPE_2 . METHOD_5 ( ) , TYPE_2 . getReturnValue ( ) . METHOD_6 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Version NAME version TYPE TYPE_1 NAME cluster INIT = new TYPE_1 ( )  cluster . METHOD_2 ( version )  org.mockito.Mockito.when ( VAR_1 . get ( TYPE_2 . any ( VAR_2 . Guid class ) ) ) . thenReturn ( cluster )
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 TYPE boolean NAME VAR_2 TYPE TYPE_3 NAME VAR_3 TYPE TYPE_1 NAME disk INIT = TYPE_4 . METHOD_1 ( )  disk . METHOD_2 ( VAR_1 )  disk . METHOD_3 ( VAR_2 )  disk . METHOD_4 ( VAR_3 )  return disk ;
+MODIFIER protected RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1  return VAR_1 . METHOD_2 ( ) . getValue ( ) ;
+MODIFIER public RETURN java.lang.String NAME METHOD_1  return ( VAR_1 ) == null ? null : VAR_1 . toString ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME result INIT = dao . get ( VAR_1 . getId ( ) , VAR_2 , true )  TYPE_2 . METHOD_2 ( result )
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME model TYPE java.lang.Object NAME returnValue TYPE java.util.List<TYPE_1> NAME VAR_1 INIT = ( ( TYPE_2 . VdcQueryReturnValue ) ( returnValue ) ) . getReturnValue ( )  ( ( TYPE_3 ) ( model ) ) . METHOD_1 ( VAR_1 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE int NAME value  this . VAR_1 . METHOD_2 ( value )
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  return network . METHOD_2 ( ) ? VAR_1 . getId ( ) . equals ( network . METHOD_3 ( ) . METHOD_4 ( ) ) : false ;
+MODIFIER private static RETURN void NAME METHOD_1 TYPE java.util.List<TYPE_1> NAME VAR_1 TYPE TYPE_1 NAME tempVar INIT = new TYPE_1 ( )  tempVar . setId ( VAR_2 )  tempVar . METHOD_2 ( STRING_1 )  VAR_1 . add ( tempVar )
+MODIFIER public RETURN java.lang.Integer NAME METHOD_1  return VAR_1 . METHOD_1 ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE TYPE_1 NAME VAR_2 TYPE TYPE_2 NAME VAR_3 INIT = METHOD_2 ( ) . addValue ( STRING_1 , VAR_1 ) . addValue ( STRING_2 , VAR_2 )  METHOD_3 ( ) . METHOD_4 ( STRING_3 , VAR_3 )
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.Network NAME network  return network . METHOD_2 ( ) . equals ( METHOD_3 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  super . METHOD_1 ( VAR_1 )  VAR_1 . METHOD_2 ( new java.util.ArrayList < TYPE_2 > ( ) )  VAR_1 . METHOD_3 ( false )  VAR_1 . METHOD_4 ( METHOD_5 ( ) )
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = METHOD_2 ( )  TYPE_2 . METHOD_3 ( VAR_1 . METHOD_4 ( ) ) . METHOD_5 ( STRING_1 ) . METHOD_6 ( )  return VAR_1 ;
+MODIFIER protected RETURN void NAME METHOD_1  VAR_1 . put ( VAR_2 , vm . METHOD_2 ( ) . toString ( ) )  VAR_1 . put ( VAR_3 , java.lang.String.valueOf ( vm . METHOD_3 ( ) ) )
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VdsNetworkInterface NAME nic  return METHOD_1 ( nic . METHOD_2 ( ) , nic ) ;
+MODIFIER protected RETURN TYPE_1.DbFacade NAME METHOD_1  return VAR_1 ;
+MODIFIER public RETURN org.ovirt.engine.core.common.businessentities.VDS NAME get TYPE TYPE_1 NAME id  return get ( id , null , false ) ;
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 TYPE TYPE_3 NAME VAR_2  return new TYPE_4 ( VAR_1 , VAR_2 ) ;
+MODIFIER protected RETURN TYPE_1.VdcActionParametersBase NAME METHOD_1 TYPE TYPE_2 NAME VAR_1  return new TYPE_3 ( VAR_1 , VAR_1 . getId ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 BLOCK BLOCK
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.StorageDomain NAME storageDomain TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE TYPE_1 NAME parameters INIT = new TYPE_1 ( storageDomain . getId ( ) )  parameters . METHOD_2 ( VAR_1 )  TYPE_2 . getInstance ( ) . METHOD_3 ( VAR_2 , parameters )  return true ;
+MODIFIER public RETURN void NAME METHOD_1  org.mockito.Mockito.doReturn ( null ) . when ( command ) . METHOD_2 ( TYPE_1 . any ( VAR_1 class ) )  TYPE_2 . METHOD_3 ( command , VAR_2 )
+MODIFIER private RETURN org.ovirt.engine.core.common.businessentities.VM NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VM NAME entity TYPE int NAME VAR_1  TYPE_1 . METHOD_2 ( entity . getId ( ) ) . METHOD_3 ( VAR_2 [ VAR_1 ] ) . METHOD_4 ( )  return entity ;
+MODIFIER MODIFIER RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  return ( ( VAR_1 . METHOD_2 ( ) ) && ( VAR_1 . METHOD_3 ( ) . METHOD_4 ( ) ) ) && ( VAR_1 . METHOD_3 ( ) . METHOD_5 ( ) . METHOD_6 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( command . METHOD_3 ( ) )  TYPE_2 . METHOD_4 ( STRING_1 , command , VAR_1 )
+MODIFIER public RETURN TYPE_1<TYPE_2> NAME METHOD_1 TYPE java.util.Map<java.lang.String,TYPE_2> NAME VAR_1 INIT = VAR_2 . METHOD_2 ( VAR_3 class ) TYPE TYPE_1<TYPE_2> NAME VAR_4 INIT = new TYPE_3 ( VAR_1 . METHOD_3 ( ) )  return VAR_4 ;
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME parameters INIT = new TYPE_1 ( TYPE_2 . METHOD_2 ( ) , TYPE_2 . getVm ( ) )  parameters . METHOD_3 ( TYPE_2 . getVm ( ) . METHOD_4 ( ) )  return parameters ;
+MODIFIER public RETURN TYPE_1.AuditLogType NAME METHOD_1 COND TYPE_2 . getParameters ( ) . METHOD_2 ( )  return TYPE_2 . getSucceeded ( ) ? VAR_1 : VAR_2 ;  return TYPE_2 . getSucceeded ( ) ? VAR_3 : VAR_4 ;
+MODIFIER public RETURN java.lang.String NAME getValue TYPE TYPE_1<TYPE_2,org.ovirt.engine.core.common.businessentities.VM> NAME object  return object . METHOD_1 ( ) . METHOD_2 ( ) ;
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME storageDomain TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE TYPE_2 NAME VAR_2  return METHOD_2 ( storageDomain , VAR_1 , TYPE_3 . getValue ( ) , VAR_2 , VAR_3 ) ;
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1  return VAR_1 . getModel ( ) ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1  return new TYPE_1 ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME model INIT = TYPE_2 . getModel ( 0 )  model . METHOD_2 ( new TYPE_3 ( ) )  model . METHOD_3 ( ) . METHOD_4 ( true )  METHOD_5 ( model , true )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.lang.Object NAME sender TYPE TYPE_2 NAME args  METHOD_2 ( model , true )
+MODIFIER private RETURN void NAME METHOD_1  METHOD_2 ( STRING_1 , VAR_1 . METHOD_3 ( ) , VAR_2 , STRING_2 , VAR_1 . METHOD_4 ( ) , VAR_3 , VAR_1 . METHOD_5 ( ) )
+MODIFIER public RETURN boolean NAME METHOD_1  return ( this . VAR_1 ) != null ;
+MODIFIER public static RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.Network NAME network  return ( ! ( network . METHOD_2 ( ) ) ) && ( ( network . METHOD_3 ( ) ) == null ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = METHOD_2 ( VAR_2 )  VAR_3 . METHOD_3 ( )  TYPE_2 . METHOD_4 ( STRING_1 , VAR_3 . METHOD_5 ( VAR_4 , VAR_2 ) )  org.mockito.Mockito . METHOD_6 ( VAR_1 )
+MODIFIER public RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1  return VAR_1 ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME user COND ( user . METHOD_2 ( ) ) == ( VAR_1 )  return TYPE_3 . METHOD_3 ( VAR_2 . METHOD_4 ( ) ) ;  return TYPE_3 . METHOD_3 ( VAR_2 . user ( ) ) ;
+MODIFIER public static RETURN java.lang.String NAME METHOD_1 TYPE java.lang.String NAME VAR_1  return ( TYPE_1 . METHOD_1 ( VAR_1 . METHOD_2 ( 0 ) ) ) + ( VAR_1 . METHOD_3 ( 1 ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.Integer NAME value  this . VAR_1 = TYPE_1 . METHOD_2 ( value )
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME model TYPE java.lang.Object NAME returnValue  VAR_1 = ( ( TYPE_1 . VdcQueryReturnValue ) ( returnValue ) ) . getReturnValue ( )  TYPE_2 . getInstance ( ) . METHOD_1 ( new TYPE_3 ( VAR_1 ) )
+MODIFIER public RETURN TYPE_1 NAME getStatus  return METHOD_1 ( ) . METHOD_2 ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VdsNetworkInterface NAME nic INIT = new org.ovirt.engine.core.common.businessentities . VdsNetworkInterface ( ) TYPE TYPE_1 NAME VAR_1 INIT = new TYPE_1 ( )  TYPE_2 . METHOD_2 ( ( ( VAR_1 . METHOD_3 ( nic ) . length ( ) ) > 0 ) )
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . assertEquals ( VAR_1 . METHOD_2 ( ) , VAR_2 )  TYPE_1 . assertEquals ( VAR_3 . METHOD_2 ( ) , VAR_4 )
+MODIFIER private static RETURN java.lang.String NAME METHOD_1 TYPE java.lang.String NAME VAR_1 TYPE java.lang.String NAME params  return ( ( STRING_1 + ( TYPE_1 . getInstance ( ) . METHOD_2 ( ) ) ) + VAR_1 ) + ( params != null ? params : STRING_2 ) ;
+MODIFIER protected RETURN TYPE_1.StorageDomain NAME METHOD_1 TYPE int NAME VAR_1 TYPE TYPE_1.StorageDomain NAME VAR_2 INIT = new TYPE_1 . StorageDomain ( )  VAR_2 . setId ( VAR_3 [ VAR_1 ] )  return VAR_2 ;
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( VAR_2 )  domain . METHOD_3 ( VAR_2 )  TYPE_1 . METHOD_4 ( validator . METHOD_1 ( domain ) . METHOD_5 ( ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE int NAME value  this . VAR_1 = value  METHOD_2 ( new TYPE_1 ( STRING_1 ) )
+MODIFIER public static RETURN TYPE_1 NAME METHOD_1  return TYPE_2 . METHOD_2 ( VAR_1 , VAR_2 , VAR_3 . METHOD_3 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.util.List<org.ovirt.engine.core.common.businessentities.VDS> NAME result INIT = dao . METHOD_2 ( VAR_1 . METHOD_3 ( ) , VAR_2 , false )  METHOD_4 ( result )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.Object NAME target TYPE java.lang.Object NAME returnValue TYPE TYPE_1 NAME model INIT = ( ( TYPE_1 ) ( target ) ) TYPE java.util.List<java.lang.String> NAME VAR_1 INIT = ( ( java.util.List < java.lang.String > ) ( returnValue ) )  METHOD_2 ( model , VAR_1 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE TYPE_1<org.ovirt.engine.core.compat.Guid> NAME vms INIT = VAR_2 . get ( VAR_1 ) COND vms != null  METHOD_2 ( ) . METHOD_3 ( vms )  VAR_2 . METHOD_4 ( VAR_1 )
+MODIFIER public RETURN boolean NAME METHOD_1  return ( METHOD_2 ( ) . METHOD_3 ( ) ) && ( METHOD_4 ( ) . METHOD_3 ( ) ) ;
+MODIFIER public RETURN java.lang.Object NAME Convert TYPE java.lang.Object NAME source TYPE org.ovirt.engine.ui.frontend.AsyncQuery NAME _asyncQuery COND source == null  return new java.util.HashMap < java.lang.String , java.lang.String > ( ) ;  return source ;
+MODIFIER protected RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1  return VAR_1 . getStoragePoolId ( ) . getValue ( ) ;
+MODIFIER protected RETURN java.util.List<org.ovirt.engine.core.common.businessentities.DiskImage> NAME METHOD_1  TYPE_1 . METHOD_2 ( TYPE_2 . getVm ( ) )  TYPE_1 . METHOD_3 ( TYPE_2 . getVm ( ) , false , false , true )  return TYPE_2 . getVm ( ) . METHOD_4 ( ) ;
+MODIFIER protected RETURN void NAME METHOD_1  METHOD_2 ( getVm ( ) . METHOD_3 ( ) )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( true , false , null , null )  TYPE_1 . METHOD_3 ( validator . METHOD_4 ( false ) , TYPE_2 . METHOD_5 ( ) )
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = new TYPE_1 ( )  VAR_1 . METHOD_2 ( org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) . toString ( ) )  return VAR_1 ;
+MODIFIER public RETURN void NAME METHOD_1  super . METHOD_1 ( )  dao = METHOD_2 ( VAR_1 . METHOD_3 ( ) )
+MODIFIER private RETURN void NAME METHOD_1  org.mockito.Mockito.doReturn ( true ) . when ( command ) . METHOD_2 ( )  METHOD_3 ( true )  METHOD_4 ( true )  METHOD_5 ( true )  METHOD_6 ( true )  METHOD_7 ( true )
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.ui.uicommonweb.UICommand NAME command COND STRING_1 . METHOD_2 ( command . getName ( ) )  METHOD_3 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME value TYPE TYPE_1 NAME storageDomain IN METHOD_2 ( ) COND storageDomain . METHOD_3 ( ) . equals ( value )  METHOD_4 ( storageDomain )  break ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  METHOD_2 ( VAR_2 class , VAR_1 ) COND ( VAR_1 . METHOD_3 ( ) ) || ( VAR_1 . METHOD_4 ( ) )  METHOD_5 ( VAR_1 )  return super . METHOD_1 ( VAR_1 ) ;
+MODIFIER public RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( VAR_2 , VAR_3 . toString ( ) , true )  VAR_4 = TYPE_1 . METHOD_3 ( )  METHOD_4 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME vmId  getWindow ( ) . METHOD_2 ( )  METHOD_3 ( )  METHOD_4 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.Integer NAME VAR_1  VAR_2 = TYPE_1 . METHOD_2 ( VAR_1 )  METHOD_3 ( ) . METHOD_4 ( ( ( VAR_1 != null ) && ( VAR_2 ) ) )
+MODIFIER protected RETURN void NAME METHOD_1 COND VAR_1  METHOD_2 ( ) . setEntity ( true )  METHOD_2 ( ) . setEntity ( true )  METHOD_2 ( ) . METHOD_3 ( false )
+MODIFIER protected RETURN void NAME METHOD_1 TYPE java.lang.String NAME VAR_1  METHOD_2 ( true )  VAR_2 . METHOD_3 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.lang.Object NAME sender TYPE TYPE_2 NAME args  METHOD_2 ( )  VAR_2 . METHOD_3 ( VAR_3 . METHOD_4 ( ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME VAR_1  VAR_2 . METHOD_1 ( TYPE_1 . METHOD_2 ( VAR_1 ) )
+MODIFIER private RETURN boolean NAME METHOD_1  return ( ( VAR_1 . getStatus ( ) ) == ( VAR_2 ) ) && ( METHOD_2 ( ) . METHOD_3 ( ) . equals ( VAR_1 . METHOD_4 ( ) ) ) ;
+MODIFIER protected RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VM NAME vm  return ( ( java.lang.Boolean ) ( METHOD_2 ( ) . METHOD_3 ( ) . METHOD_4 ( VAR_1 , new TYPE_1 ( vm . getId ( ) ) ) . getReturnValue ( ) ) ) . METHOD_5 ( ) ;
+MODIFIER private RETURN void NAME METHOD_1 TYPE org.ovirt.engine.ui.uicommonweb.models.EntityModel NAME value  VAR_1 = value
+MODIFIER public RETURN TYPE_1 NAME getConstants  return constants ;
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 COND ( VAR_1 ) == null  VAR_1 = METHOD_2 ( ) . METHOD_3 ( ) . get ( TYPE_2 . getParameters ( ) . METHOD_4 ( ) )  return VAR_1 ;
+MODIFIER private RETURN int NAME METHOD_1  return VAR_1 . METHOD_1 ( ) ;
+MODIFIER private RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME cluster  return ( cluster . METHOD_2 ( ) ) && ( METHOD_3 ( ) . METHOD_4 ( cluster . METHOD_5 ( ) , cluster . getId ( ) ) ) ;
+MODIFIER public static RETURN void NAME METHOD_1 TYPE org.ovirt.engine.ui.frontend.AsyncQuery NAME aQuery TYPE boolean NAME VAR_1  aQuery.converterCallback = new TYPE_1 ( ) TYPE TYPE_2 NAME params INIT = new TYPE_2 ( )  params . METHOD_2 ( VAR_1 )  org.ovirt.engine.ui.frontend.Frontend . RunQuery ( VAR_2 , params , aQuery )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME id  return inject ( new TYPE_2 ( id , VAR_1 ) ) ;
+MODIFIER public static RETURN void NAME METHOD_1 TYPE org.ovirt.engine.ui.frontend.AsyncQuery NAME aQuery TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1  aQuery.converterCallback = new TYPE_1 ( )  org.ovirt.engine.ui.frontend.Frontend . RunQuery ( VAR_2 , new org.ovirt.engine.core.common.queries.IdQueryParameters ( VAR_1 ) , aQuery )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME VAR_1  this . VAR_1 = VAR_1  this . VAR_2 = true  METHOD_2 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME VAR_1 COND TYPE_1 . getInstance ( ) . METHOD_2 ( )  VAR_2 . METHOD_3 ( STRING_1 , VAR_1 )  VAR_2 . METHOD_3 ( STRING_2 , VAR_1 )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME object  return object . METHOD_2 ( ) ;
+MODIFIER public static RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME context TYPE TYPE_3 NAME VAR_1 TYPE java.lang.String NAME VAR_2  return TYPE_4 . METHOD_1 ( context , VAR_1 , VAR_2 , false ) ;
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 TYPE TYPE_3 NAME VAR_2 INIT = new TYPE_3 ( TYPE_4 . METHOD_2 ( ) )  VAR_2 . METHOD_3 ( VAR_1 )  return METHOD_4 ( VAR_2 ) ;
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 TYPE TYPE_3 NAME cluster INIT = new TYPE_3 ( )  cluster . METHOD_2 ( VAR_2 ) TYPE TYPE_1 NAME model MODIFIER public RETURN TYPE_3 NAME METHOD_3  return cluster ; INIT = new TYPE_4 ( VAR_1 ) { public TYPE_3 METHOD_3 ( ) { return cluster ; } }  return model ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = METHOD_2 ( null )  METHOD_3 ( VAR_2 )  METHOD_4 ( STRING_1 )  VAR_3 . METHOD_5 ( VAR_1 )  METHOD_6 ( METHOD_7 ( ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = new TYPE_1 ( ) TYPE java.lang.String NAME VAR_2 INIT = STRING_1  VAR_1 . METHOD_2 ( VAR_2 )  TYPE_2 . assertEquals ( VAR_1 . METHOD_3 ( ) , VAR_2 )
+MODIFIER protected RETURN boolean NAME validate  return ( ( validate ( METHOD_1 ( ) . METHOD_2 ( ) ) ) && ( validate ( METHOD_1 ( ) . METHOD_3 ( ) ) ) ) && ( validate ( METHOD_1 ( ) . METHOD_4 ( ) ) ) ;
+MODIFIER protected RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME model  model = super . METHOD_1 ( model )  model . METHOD_2 ( TYPE_2 . name ( ) . METHOD_3 ( ) )  return model ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.Object NAME target TYPE java.lang.Object NAME returnValue TYPE TYPE_1 NAME VAR_1 INIT = ( ( TYPE_1 ) ( target ) )  VAR_2 = ( ( java.lang.String ) ( returnValue ) )  VAR_1 . METHOD_2 ( )
+MODIFIER private RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = METHOD_2 ( )  return ( validate ( VAR_1 . METHOD_3 ( ) ) ) && ( super . METHOD_1 ( VAR_1 ) ) ;
+MODIFIER public RETURN void NAME METHOD_1  cmd = org.mockito.Mockito . METHOD_2 ( new TYPE_1 ( new TYPE_2 ( VAR_1 , METHOD_3 ( VAR_1 ) ) ) )  METHOD_4 ( cmd )  TYPE_3 . METHOD_5 ( cmd . validate ( ) )
+MODIFIER public RETURN void NAME setEntity TYPE org.ovirt.engine.core.common.businessentities.StoragePool NAME value  VAR_1 = value  METHOD_1 ( )
+MODIFIER private RETURN java.lang.String NAME METHOD_1  return java.lang.String . METHOD_2 ( STRING_1 , network . getName ( ) ) ;
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.Network NAME VAR_1  return VAR_1 . getId ( ) . equals ( METHOD_2 ( ) . getId ( ) ) ;
+MODIFIER protected RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VDS NAME vds INIT = new org.ovirt.engine.core.common.businessentities.VDS ( )  vds . METHOD_2 ( TYPE_1 . METHOD_3 ( ) )  org.mockito.Mockito.when ( VAR_1 . get ( TYPE_2 . any ( VAR_2 . Guid class ) ) ) . thenReturn ( vds )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( VAR_1 , VAR_2 , VAR_3 )  METHOD_2 ( VAR_4 , VAR_5 )  METHOD_3 ( VAR_2 , VAR_3 , VAR_5 )  METHOD_4 ( VAR_1 , VAR_4 )  METHOD_5 ( VAR_4 , VAR_1 )
+MODIFIER private RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( null )  VAR_1 . METHOD_3 ( null )
+MODIFIER public RETURN boolean NAME METHOD_1  return ( ( this . VAR_1 ) != null ) && ( this . VAR_1 . METHOD_2 ( ) ) ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.Object NAME args TYPE java.lang.Object NAME VAR_1 IN args COND VAR_1 instanceof TYPE_1  return ( ( TYPE_1 ) ( VAR_1 ) ) ;  return null ;
+MODIFIER private static RETURN TYPE_1 NAME METHOD_1  return TYPE_1 . METHOD_2 ( VAR_1 ) ; TYPE TYPE_2 NAME e  VAR_2 . error ( ( STRING_1 + ( VAR_1 ) ) )  throw new TYPE_3 ( e ) ;
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME model TYPE java.lang.Object NAME VAR_1 TYPE java.util.ArrayList<org.ovirt.engine.core.common.businessentities.network.Network> NAME VAR_2 INIT = ( ( TYPE_1 . VdcQueryReturnValue ) ( VAR_1 ) ) . getReturnValue ( )  TYPE_2 . METHOD_1 ( VAR_2 , new TYPE_3 ( ) )  setItems ( VAR_2 )
+MODIFIER private RETURN void NAME METHOD_1  VAR_1 = new TYPE_1 ( VAR_2 . METHOD_2 ( VAR_3 . METHOD_3 ( ) ) )
+MODIFIER private RETURN void NAME METHOD_1  org.mockito.Mockito.when ( METHOD_2 ( ) . METHOD_3 ( ) ) . thenReturn ( VAR_1 )  org.mockito.Mockito.when ( METHOD_4 ( ) . METHOD_5 ( ) ) . thenReturn ( vmId )
+MODIFIER public RETURN void NAME METHOD_1  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( command ) . METHOD_2 ( )  org.mockito.Mockito.when ( VAR_1 . METHOD_3 ( TYPE_1 . any ( VAR_2 . Guid class ) ) ) . thenReturn ( METHOD_4 ( ) )
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME model TYPE java.lang.Object NAME returnValue  VAR_1 = TYPE_1 . METHOD_1 ( ( ( TYPE_2 < org.ovirt.engine.core.common.businessentities.StoragePool > ) ( returnValue ) ) )  METHOD_2 ( )
+MODIFIER public RETURN void NAME METHOD_1  org.mockito.Mockito.doReturn ( true ) . when ( VAR_1 ) . METHOD_2 ( TYPE_1 . any ( VAR_2 . StoragePool class ) )  VAR_1 . METHOD_3 ( )  METHOD_4 ( java.lang.Boolean . TRUE )
+MODIFIER private static RETURN boolean NAME METHOD_1 TYPE java.util.List<java.lang.String> NAME VAR_1 TYPE java.util.List<org.ovirt.engine.core.common.businessentities.DiskImage> NAME VAR_2  return TYPE_1 . METHOD_2 ( VAR_1 , VAR_2 , VAR_3 , VAR_4 ) ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = TYPE_2 . METHOD_2 ( VAR_2 , VAR_3 ) COND VAR_1 != null  return VAR_1 ;  return this ;
+MODIFIER private RETURN void NAME METHOD_1  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( VAR_2 ) . METHOD_2 ( )
+MODIFIER public RETURN java.lang.String NAME getName  return METHOD_1 ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE boolean NAME value COND ( VAR_1 ) != value  VAR_1 = value  METHOD_2 ( new TYPE_1 ( STRING_1 ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.util.List<org.ovirt.engine.core.common.businessentities.VDS> NAME result INIT = dao . METHOD_2 ( VAR_1 . METHOD_3 ( ) )  METHOD_4 ( result )
+MODIFIER private RETURN org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.network.VdsNetworkInterface NAME iface TYPE java.lang.String NAME VAR_1  return METHOD_2 ( iface . getId ( ) , iface . getName ( ) , false , VAR_1 , null , null , true ) ;
+MODIFIER protected RETURN void NAME METHOD_1  METHOD_1 ( ( ! ( TYPE_1 . METHOD_2 ( ) ) ) ) COND getReturnValue ( ) . METHOD_3 ( ) . isEmpty ( )  METHOD_4 ( )
+MODIFIER public RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.DiskImage NAME diskImage  return diskImage . getId ( ) . getValue ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.StorageDomain NAME result INIT = dao . METHOD_2 ( VAR_1 . getId ( ) , TYPE_1 . METHOD_3 ( ) )  TYPE_2 . METHOD_4 ( result )
+MODIFIER protected RETURN TYPE_1.AddVmCommand<TYPE_2> NAME METHOD_1  METHOD_2 ( )  return new TYPE_1 . AddVmCommand ( new TYPE_2 ( vm ) , null ) ;
+MODIFIER public RETURN void NAME setTitle TYPE java.lang.String NAME VAR_1  TYPE_1 . METHOD_1 ( ) . METHOD_2 ( new TYPE_2 ( VAR_1 ) )
+MODIFIER public RETURN org.ovirt.engine.core.compat.Guid NAME METHOD_1  return getParameters ( ) . METHOD_1 ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 COND ( getWindow ( ) ) != null  return ; TYPE TYPE_1 NAME VAR_1 INIT = new TYPE_2 ( this )  METHOD_2 ( VAR_1 )  VAR_1 . METHOD_3 ( null )  METHOD_4 ( VAR_1 )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 COND ( ( java.lang.Boolean ) ( VAR_1 . getEntity ( ) ) ) && ( ( VAR_2 ) != null )  return VAR_2 ;  return METHOD_2 ( ) ;
+MODIFIER public RETURN java.lang.String NAME METHOD_1  return ( VAR_1 ) + ( ( VAR_2 ) == null ? STRING_1 : VAR_2 ) ;
+MODIFIER private RETURN boolean NAME METHOD_1 COND ( TYPE_1 . METHOD_2 ( ) . get ( TYPE_1 . getParameters ( ) . METHOD_3 ( ) . METHOD_4 ( ) ) ) != null  return true ;  addCanDoActionMessage ( VAR_1 )  return false ;
+MODIFIER public static RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.StorageDomain NAME storageDomain TYPE boolean NAME VAR_1 INIT = ( ( storageDomain . METHOD_2 ( ) ) != null ) && ( ( storageDomain . METHOD_2 ( ) ) == ( VAR_2 ) )  return VAR_1 ;
+MODIFIER public RETURN java.lang.String NAME getValue TYPE TYPE_1 NAME VAR_1  return TYPE_2 . METHOD_1 ( VAR_1 . METHOD_2 ( ) , STRING_1 ) ;
+MODIFIER private RETURN void NAME METHOD_1  METHOD_2 ( )  METHOD_3 ( )  METHOD_4 ( )  METHOD_5 ( )  METHOD_6 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1.VdcActionType NAME VAR_1 TYPE java.util.List<TYPE_1.VdcActionParametersBase> NAME parameters  METHOD_1 ( VAR_1 , parameters , null , null , true , false )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  VAR_2 . put ( VAR_1 . getName ( ) , VAR_1 )
+MODIFIER MODIFIER RETURN void NAME METHOD_1 TYPE TYPE_1 NAME model  METHOD_2 ( model . METHOD_3 ( ) )  METHOD_4 ( ( ( model . METHOD_5 ( ) ) != ( VAR_1 ) ) )  METHOD_6 ( constants )
+MODIFIER protected RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 INIT = getParameters ( ) . METHOD_2 ( ) . getId ( )  METHOD_3 ( STRING_1 , VAR_1 . toString ( ) )  getReturnValue ( ) . METHOD_4 ( VAR_1 )
+MODIFIER public RETURN TYPE_1 NAME getValue TYPE TYPE_2 NAME object  return new TYPE_3 ( ) . getValue ( ( ( TYPE_2 ) ( object ) ) . getVm ( ) ) ;
+MODIFIER MODIFIER RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME value
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( )  METHOD_3 ( )  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( VAR_2 ) . METHOD_4 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE java.util.List<org.ovirt.engine.core.compat.Guid> NAME VAR_2 TYPE TYPE_1<?> NAME VAR_3 INIT = METHOD_2 ( VAR_1 )  VAR_3 . getParameters ( ) . METHOD_3 ( false )  METHOD_4 ( VAR_3 , VAR_2 )
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . assertEquals ( result , TYPE_2 . METHOD_2 ( TYPE_3 . METHOD_3 ( VAR_1 ) , VAR_1 . METHOD_4 ( ) , action ) )
+MODIFIER private RETURN org.ovirt.engine.core.common.businessentities.StorageDomain NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.StorageDomain NAME storageDomain INIT = new org.ovirt.engine.core.common.businessentities.StorageDomain ( )  storageDomain . setId ( org.ovirt.engine.core.compat.Guid . METHOD_2 ( ) )  storageDomain . METHOD_3 ( VAR_1 )  storageDomain . METHOD_4 ( VAR_2 )  return storageDomain ;
+MODIFIER protected RETURN java.lang.String NAME METHOD_1  return java.lang.String . METHOD_2 ( STRING_1 , version ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE java.util.Map<java.lang.String,TYPE_1> NAME VAR_2  VAR_3 . METHOD_2 ( ) . METHOD_1 ( VAR_1 , VAR_2 )
+MODIFIER private RETURN void NAME METHOD_1 TYPE java.lang.Object NAME sender TYPE TYPE_1 NAME args COND ( METHOD_2 ( ) . getEntity ( ) ) == false  METHOD_3 ( ) . METHOD_4 ( true )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( )  TYPE_1 . METHOD_3 ( cmd . METHOD_4 ( ) )
+MODIFIER protected RETURN boolean NAME METHOD_1  return VAR_1 ;
+MODIFIER private RETURN TYPE_1.DbFacade NAME METHOD_1  return org.ovirt.engine.core.dal.dbbroker.DbFacade.getInstance ( ) ;
+MODIFIER public RETURN TYPE_1.VdcActionParametersBase NAME getParameters TYPE TYPE_2 NAME model TYPE TYPE_3 NAME entity TYPE TYPE_4<TYPE_3> NAME parameters INIT = new TYPE_4 < TYPE_3 > ( )  parameters . METHOD_1 ( VAR_1 )  parameters . METHOD_2 ( map ( VAR_2 , entity ) )  return parameters ;
+MODIFIER public RETURN java.util.Map<java.lang.String,java.lang.Object> NAME METHOD_1  return VAR_1 ;
+MODIFIER private static RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.lang.String NAME VAR_2 TYPE java.lang.String NAME VAR_3 TYPE java.lang.String NAME VAR_4 TYPE TYPE_2 NAME VAR_5 INIT = TYPE_3 . METHOD_2 ( VAR_3 , VAR_2 , VAR_4 )  VAR_1 . setId ( VAR_5 . toString ( ) )
+MODIFIER public static RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.VM NAME vm TYPE java.util.List<java.lang.String> NAME VAR_1  return TYPE_1 . METHOD_1 ( vm , VAR_1 , TYPE_1 . METHOD_2 ( vm , null ) ) ;
+MODIFIER private static RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_1 NAME pool INIT = new TYPE_1 ( )  pool . METHOD_2 ( STRING_1 )  pool . setId ( org.ovirt.engine.core.compat.Guid . METHOD_3 ( ) )  return pool ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.lang.Object NAME sender TYPE TYPE_2 NAME args  METHOD_2 ( )
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( VAR_1 . METHOD_3 ( new org.ovirt.engine.core.common.businessentities.VM ( ) , new java.util.ArrayList < > ( ) , null ) , false , VAR_2 )
+MODIFIER protected RETURN void NAME METHOD_1  METHOD_2 ( )  VAR_1 = false  TYPE_1 . METHOD_3 ( false )  METHOD_4 ( )  TYPE_1 . METHOD_5 ( )
+MODIFIER public static RETURN void NAME log TYPE TYPE_1 NAME VAR_1 TYPE TYPE_2.AuditLogType NAME VAR_2 INIT = VAR_1 . METHOD_1 ( )  TYPE_3 . log ( VAR_1 , VAR_2 )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( VAR_1 , VAR_2 , VAR_3 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME command INIT = METHOD_2 ( VAR_1 , VAR_2 , VAR_3 )  org.mockito.Mockito.doReturn ( true ) . when ( command ) . METHOD_3 ( )  TYPE_2 . METHOD_4 ( command , VAR_4 )
+MODIFIER protected RETURN java.lang.String NAME METHOD_1 TYPE TYPE_1.DiskImage NAME image  return java.lang.String . METHOD_2 ( STRING_1 , image . METHOD_3 ( ) ) ;
+MODIFIER protected RETURN void NAME METHOD_1  super . METHOD_1 ( ) COND ( getEntity ( ) ) != null  METHOD_2 ( )  METHOD_3 ( )
+MODIFIER private RETURN void NAME METHOD_1  VAR_1 . METHOD_2 ( )  VAR_2 . METHOD_2 ( )  VAR_3 . METHOD_2 ( )  VAR_4 . METHOD_2 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.Object NAME model TYPE java.lang.Object NAME VAR_1 BLOCK BLOCK
+MODIFIER public abstract RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME other
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME model TYPE java.lang.Object NAME result  VAR_1 = ( ( org.ovirt.engine.core.common.businessentities.VM ) ( result ) )  METHOD_1 ( VAR_1 )
+MODIFIER private RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE int NAME VAR_2 TYPE java.util.List<TYPE_1> NAME VAR_3 INIT = dao . METHOD_2 ( VAR_1 )  TYPE_2 . assertEquals ( STRING_1 , VAR_2 , VAR_3 . size ( ) )
+MODIFIER private RETURN void NAME METHOD_1 TYPE java.util.List<TYPE_1> NAME VAR_1  org.mockito.Mockito.doReturn ( VAR_1 ) . when ( VAR_2 ) . METHOD_2 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  METHOD_2 ( null )  org.ovirt.engine.ui.frontend.Frontend.getInstance ( ) . METHOD_3 ( VAR_2 , METHOD_4 ( ) , VAR_1 , this )
+MODIFIER private RETURN long NAME METHOD_1  return ( TYPE_1 . METHOD_2 ( ) ) - ( ( this . VAR_1 ) + ( this . VAR_2 . METHOD_3 ( ) ) ) ;
+MODIFIER protected RETURN int NAME METHOD_1  return 1 ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME entity  TYPE_2 . METHOD_2 ( ) . METHOD_3 ( METHOD_4 ( ) , METHOD_5 ( entity ) )
+MODIFIER private RETURN void NAME METHOD_1  org.mockito.Mockito.doReturn ( METHOD_2 ( ) ) . when ( VAR_1 ) . METHOD_3 ( TYPE_1 . any ( VAR_2 . Guid class ) )  org.mockito.Mockito.doReturn ( METHOD_4 ( ) ) . when ( VAR_3 ) . METHOD_5 ( VAR_4 )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME domain TYPE TYPE_2 NAME VAR_1  return METHOD_2 ( ) . METHOD_3 ( STRING_1 , VAR_2 . instance , METHOD_4 ( ) . addValue ( STRING_2 , domain ) . addValue ( STRING_3 , VAR_1 . METHOD_5 ( ) ) ) ;
+MODIFIER protected RETURN void NAME METHOD_1 TYPE TYPE_1 NAME value  super . setItems ( value ) TYPE java.util.List<org.ovirt.engine.core.common.businessentities.VM> NAME list INIT = ( ( java.util.List < org.ovirt.engine.core.common.businessentities.VM > ) ( METHOD_2 ( ) ) )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( )  METHOD_3 ( )  TYPE_1 . METHOD_4 ( command . METHOD_5 ( ) )
+MODIFIER public RETURN void NAME METHOD_1  super . METHOD_1 ( )  TYPE_1 . METHOD_2 ( ) . METHOD_3 ( )  this . model . METHOD_3 ( )  this . model = null
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_1 TYPE org.ovirt.engine.core.compat.Guid NAME VAR_2 TYPE TYPE_1 NAME status
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.Object NAME target TYPE java.lang.Object NAME returnValue TYPE TYPE_1 NAME model INIT = ( ( TYPE_1 ) ( target ) )  model . METHOD_2 ( ( ( java.lang.Boolean ) ( returnValue ) ) )
+MODIFIER public RETURN void NAME METHOD_1  METHOD_2 ( METHOD_3 ( ) )  METHOD_4 ( 1 , true )  VAR_1 . METHOD_5 ( )  METHOD_6 ( resource . get ( ) , 0 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.lang.String NAME value COND ! ( TYPE_1 . METHOD_2 ( METHOD_3 ( ) . METHOD_4 ( ) , value ) )  METHOD_3 ( ) . METHOD_1 ( value )
+MODIFIER private RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1 INIT = new TYPE_2 ( )  VAR_1 . setId ( VAR_2 )  VAR_1 . METHOD_2 ( ) . add ( VAR_3 )  return VAR_1 ;
+MODIFIER public static RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  return ( VAR_1 . METHOD_2 ( ) ) != ( VAR_2 ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 INIT = new TYPE_1 ( )  VAR_1 . METHOD_2 ( VAR_2 ) TYPE org.ovirt.engine.core.compat.Guid NAME VAR_3 INIT = VAR_1 . METHOD_3 ( )  TYPE_2 . assertEquals ( VAR_2 , VAR_3 )
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME model TYPE java.lang.Object NAME returnValue TYPE TYPE_1 NAME VAR_1 INIT = ( ( TYPE_1 ) ( returnValue ) ) COND VAR_1 != null  METHOD_1 ( VAR_1 . getStatus ( ) )  METHOD_1 ( VAR_2 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1<?extendsTYPE_2> NAME VAR_1 TYPE java.lang.Object NAME sender TYPE TYPE_2 NAME args  METHOD_2 ( ) . METHOD_3 ( METHOD_4 ( ) . getEntity ( ) )  METHOD_5 ( )
+MODIFIER public RETURN java.lang.String NAME getValue TYPE TYPE_1 NAME object  return object . METHOD_1 ( ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.StorageDomain NAME domain INIT = METHOD_2 ( VAR_1 , STRING_1 )  TYPE_1 . assertEquals ( domain , cmd . METHOD_3 ( ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.core.compat.Version NAME value COND TYPE_1 . METHOD_2 ( VAR_1 , value )  this . VAR_1 = value  METHOD_3 ( new TYPE_2 ( STRING_1 ) )
+MODIFIER public RETURN TYPE_1.AuditLogType NAME METHOD_1 NAME TYPE_2 . METHOD_2 ( )  return TYPE_2 . getSucceeded ( ) ? VAR_2 : VAR_3 ;  return VAR_4 ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1  this . VAR_1 = VAR_1
+MODIFIER public RETURN TYPE_1<org.ovirt.engine.core.common.businessentities.VDS,TYPE_2> NAME METHOD_1 TYPE TYPE_2 NAME returnValue INIT = METHOD_2 ( VAR_1 , new TYPE_3 ( VAR_2 . getId ( ) ) )  return new TYPE_1 < org.ovirt.engine.core.common.businessentities.VDS , TYPE_2 > ( VAR_2 , returnValue ) ;
+MODIFIER public RETURN void NAME METHOD_1  TYPE_1 . METHOD_2 ( true , true , null , false )
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE TYPE_2 NAME type COND ( ( VAR_1 . METHOD_2 ( ) ) != null ) && ( ( VAR_1 . METHOD_2 ( ) . METHOD_3 ( ) ) == type )  return true ;  return false ;
+MODIFIER private RETURN java.lang.String NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.lang.String NAME VAR_2 INIT = METHOD_2 ( VAR_1 . METHOD_3 ( ) )  return METHOD_4 ( ) . METHOD_2 ( VAR_2 ) ;
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE java.lang.String NAME VAR_1  return vm . METHOD_2 ( ) . equals ( VAR_1 ) ;
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE java.lang.Object NAME VAR_1 COND VAR_1 instanceof TYPE_1  return ( ( ( TYPE_1 ) ( VAR_1 ) ) . METHOD_2 ( ) ) == VAR_2 ;  return false ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1 TYPE java.lang.String NAME obj  return VAR_1 ;
+MODIFIER public abstract RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME object
+MODIFIER private RETURN void NAME METHOD_1 TYPE TYPE_1 NAME user INIT = ( ( TYPE_1 ) ( getEntity ( ) ) )  METHOD_2 ( user . METHOD_3 ( ) )  METHOD_4 ( user . METHOD_5 ( ) )  METHOD_6 ( user . METHOD_7 ( ) )
+MODIFIER protected RETURN java.lang.String NAME METHOD_1 TYPE java.lang.String NAME url  return TYPE_1 . METHOD_1 ( url , TYPE_2 . getVm ( ) . METHOD_2 ( ) ) ;
+MODIFIER protected RETURN TYPE_1<TYPE_2> NAME getTable  return table ;
+MODIFIER public RETURN void NAME METHOD_1  getTable ( ) . METHOD_2 ( )  METHOD_3 ( )  METHOD_4 ( )  METHOD_5 ( )  METHOD_6 ( )  METHOD_7 ( )  METHOD_8 ( )  METHOD_9 ( )  METHOD_10 ( )
+MODIFIER public RETURN java.lang.String NAME getValue TYPE org.ovirt.engine.core.common.businessentities.network.Network NAME object  return object . METHOD_1 ( ) ;
+MODIFIER public RETURN void NAME onSuccess TYPE java.lang.Object NAME model TYPE java.lang.Object NAME result  METHOD_1 ( ( ( java.util.List < TYPE_1 > ) ( result ) ) )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME widget  VAR_1 . METHOD_1 ( widget )
+MODIFIER private RETURN void NAME METHOD_1 TYPE java.util.Map<java.lang.String,TYPE_1> NAME VAR_1  VAR_2 = VAR_1  METHOD_2 ( ) . METHOD_3 ( this , VAR_3 )
+MODIFIER protected RETURN boolean NAME METHOD_1 TYPE boolean NAME result INIT = true COND ( TYPE_1 . METHOD_2 ( ) . METHOD_3 ( ) . length ( ) ) > ( METHOD_4 ( ) )  result = false  addCanDoActionMessage ( VAR_1 )  return result ;
+MODIFIER public RETURN TYPE_1<java.lang.String> NAME METHOD_1 TYPE TYPE_1<java.lang.String> NAME VAR_1 INIT = new TYPE_2 < java.lang.String > ( )  VAR_1 . add ( VAR_2 )  VAR_1 . METHOD_2 ( super . METHOD_1 ( ) )  return VAR_1 ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE java.util.List<org.ovirt.engine.core.common.businessentities.StorageDomain> NAME result INIT = dao . METHOD_2 ( VAR_1 )  TYPE_1 . METHOD_3 ( result )
+MODIFIER public RETURN boolean NAME METHOD_1 TYPE org.ovirt.engine.core.common.businessentities.Network NAME VAR_1  return VAR_1 . METHOD_2 ( ) . equals ( METHOD_3 ( ) . METHOD_4 ( ) ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE boolean NAME VAR_2 COND VAR_2  TYPE_2 . getInstance ( ) . METHOD_2 ( VAR_1 )  TYPE_2 . getInstance ( ) . METHOD_3 ( VAR_1 )
+MODIFIER protected RETURN void NAME METHOD_1  super . METHOD_1 ( )  METHOD_2 ( )
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.lang.Object NAME sender TYPE TYPE_2 NAME args  VAR_2 . METHOD_2 ( VAR_3 . METHOD_3 ( ( ( java.lang.String ) ( model . METHOD_4 ( ) . getEntity ( ) ) ) ) )
+MODIFIER static RETURN TYPE_1 NAME METHOD_1 TYPE TYPE_2 NAME VAR_1  return new TYPE_3 ( VAR_1 . METHOD_2 ( ) . METHOD_3 ( ) , 1 , VAR_1 . METHOD_4 ( ) ) ;
+MODIFIER public RETURN TYPE_1 NAME METHOD_1  return VAR_1 . METHOD_2 ( VAR_2 . METHOD_3 ( ) ) ;
+MODIFIER public RETURN java.lang.String NAME getValue TYPE TYPE_1 NAME object  return TYPE_2 . METHOD_1 ( object . METHOD_2 ( ) , STRING_1 ) ;
+MODIFIER public RETURN void NAME METHOD_1 TYPE TYPE_1<?extendsTYPE_2> NAME VAR_1 TYPE java.lang.Object NAME sender TYPE TYPE_2 NAME args  METHOD_2 ( object )  METHOD_3 ( object )
+MODIFIER protected RETURN java.util.Map[] NAME METHOD_1 TYPE java.util.List<java.lang.String> NAME VAR_1  return ( ( java.util.Map [ ] ) ( new TYPE_1 < TYPE_2 > ( new TYPE_2 ( VAR_2 . getId ( ) , VAR_1 ) ) . METHOD_2 ( ) ) ) ;
+MODIFIER public RETURN void NAME METHOD_1  org.mockito.Mockito.when ( VAR_1 . get ( TYPE_1 . any ( VAR_2 . Guid class ) ) ) . thenReturn ( parameters . METHOD_2 ( ) )  TYPE_2 . METHOD_3 ( command , VAR_3 )
+MODIFIER public RETURN TYPE_1 NAME METHOD_1  return TYPE_2 . METHOD_2 ( VAR_1 . METHOD_3 ( ) ) ;
+MODIFIER private RETURN java.util.List<org.ovirt.engine.core.common.businessentities.DiskImage> NAME METHOD_1 COND ( VAR_1 ) == null  VAR_1 = TYPE_1 . METHOD_2 ( METHOD_3 ( ) , true , false )  return VAR_1 ;
+MODIFIER public static RETURN void NAME METHOD_1 TYPE TYPE_1 NAME VAR_1 TYPE java.lang.String NAME VAR_2  VAR_3 . METHOD_2 ( ( STRING_1 + VAR_2 ) )  VAR_1 . METHOD_3 ( VAR_4 , VAR_2 )
+MODIFIER public RETURN void NAME METHOD_1 TYPE org.ovirt.engine.ui.uicommonweb.UICommand NAME command  super . METHOD_1 ( command ) COND TYPE_1 . METHOD_2 ( command . getName ( ) , STRING_1 )  METHOD_3 ( )
